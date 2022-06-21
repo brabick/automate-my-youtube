@@ -1,0 +1,114 @@
+import os
+
+import requests
+from bs4 import BeautifulSoup
+import re
+import shutil
+
+
+def remove_html_tags(text):
+    """Remove html tags from a string"""
+    clean = re.compile('<.*?>')
+    return re.sub(clean, '', text)
+
+
+def remove_edit_tags(text):
+    """Remove html tags from a string"""
+    clean = re.compile('\[.*?\]')
+    return re.sub(clean, '', text)
+
+
+class WikiAPIRequest:
+    topics_list = []
+    topic = 'Albert_Einstein'
+    url = 'https://en.wikipedia.org/w/api.php?action=parse&format=json&page='
+    images = []
+
+    def make_request(self):
+        """
+        This guy is pretty straight forward, we just make the request and return the result
+        raw_images includes all of the images that are found from the api request and we don't really need
+        a lot of them, so I just go ahead and take the pngs and jpgs. This elimanates stuff with weird
+        extensions and thumbnails and the basic wikipedia images that are included. The normal extension
+        images get added to self.images for later processing and requests
+        :return: parsed_html
+        """
+        r = requests.get(self.url + self.topic)
+        parsed_html = BeautifulSoup(r.json()['parse']['text']['*'], 'html.parser')
+        raw_images = parsed_html.findAll('img')
+        for img in raw_images:
+            print(img['src'])
+
+        for img in raw_images:
+
+            if img['src'][-3:] == 'jpg' or img['src'][-3:] == 'png':
+                if '.svg' not in img['src']:
+                    self.images.append('https:' + img['src'])
+
+        print(self.images)
+
+
+
+        return parsed_html
+
+    def parse_HTML(self):
+        """
+        Here we do the clean-up of the HTML, removing tags and such. The output is saved as a simple
+        text file for later transcription.
+        :return: the cleaned HTML, although I don't know how useful that is atm
+        """
+
+        html = self.make_request(self)
+
+        clean_html = remove_html_tags(html.text)
+
+        clean_html = remove_edit_tags(clean_html)
+
+        print("++++++++++++++ Clean HTML, no Edit Tags+++++++++++++")
+        print(clean_html)
+        new_path = r'F:/Video Resources/' + self.topic[0:10]
+        if not os.path.exists(new_path):
+            os.makedirs(new_path)
+        f = open(new_path + '/script.txt', "a", encoding='utf-8')
+        f.write(clean_html)
+        f.close()
+        return clean_html
+
+    def get_pictures(self):
+        """
+        Okay, let's think about this workflow.
+        1. First we are going to grab the images from the images returned from
+            the initial request.
+        2. Then, one at a time, we are going to feed those image names into the url below
+        3. We are then going to take the first item from the response and grab that URL
+            That URL is going to be the one that we can actually grab
+        4. We will then make the final request to save that image onto the computer in some location
+        I'll probably want to do that a max of 4 times? That sounds pretty reasonable
+        :return:
+        """
+        image_counter = 1
+        for image in self.images:
+
+            print(image)
+
+            actually_get_the_image = requests.get(image, stream=True)
+            if actually_get_the_image.status_code == 200:
+                actually_get_the_image.raw.decode_content = True
+
+                new_path = r'F:/Video Resources/' + self.topic[0:10]
+
+                if not os.path.exists(new_path + '/images'):
+                    os.makedirs(new_path + '/images')
+
+                file = open(new_path + '/images/image' + str(image_counter) + '.png', 'wb')
+                shutil.copyfileobj(actually_get_the_image.raw, file)
+
+                image_counter += 1
+
+
+if __name__ == "__main__":
+    c = WikiAPIRequest
+    c.make_request(c)
+    #c.parse_HTML(c)
+    c.get_pictures(c)
+
