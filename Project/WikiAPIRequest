@@ -47,8 +47,6 @@ class WikiAPIRequest:
 
         print(self.images)
 
-
-
         return parsed_html
 
     def parse_HTML(self):
