@@ -64,7 +64,7 @@ class WikiAPIRequest:
 
         print("++++++++++++++ Clean HTML, no Edit Tags+++++++++++++")
         print(clean_html)
-        new_path = r'F:/Video Resources/' + self.topic[0:10]
+        new_path = r'F:/Video_Resources/' + self.topic[0:10]
         if not os.path.exists(new_path):
             os.makedirs(new_path)
         f = open(new_path + '/script.txt', "a", encoding='utf-8')
@@ -93,7 +93,7 @@ class WikiAPIRequest:
             if actually_get_the_image.status_code == 200:
                 actually_get_the_image.raw.decode_content = True
 
-                new_path = r'F:/Video Resources/' + self.topic[0:10]
+                new_path = r'F:/Video_Resources/' + self.topic[0:10]
 
                 if not os.path.exists(new_path + '/images'):
                     os.makedirs(new_path + '/images')
