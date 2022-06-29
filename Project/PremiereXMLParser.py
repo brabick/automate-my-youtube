@@ -36,13 +36,13 @@ class XMLParser:
             content = f.read()
             parsed_xml = BeautifulSoup(content, 'html.parser')
             tag = parsed_xml.clipitem['id']
-            print(tag)
+            #print(tag)
             #print(parsed_xml)
             for file in directory:
                 file_xml = parsed_xml
                 file_xml.find(text='%%_name_%%').replace_with(file)
                 print(file_xml)
-                file_xml.find(text='%%_clip_duration_%%').replace_with(str(self.base_duration / len(directory)))
+                #file_xml.find(text='%%_clip_duration_%%').replace_with(str(self.base_duration / len(directory)))
                 #tag = file_xml.clipitem
                 #print(tag)
                 #file_xml.find(text='%%_clip_id_%%').replace_with(str(clip_id))
