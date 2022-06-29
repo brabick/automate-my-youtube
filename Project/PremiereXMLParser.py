@@ -42,14 +42,15 @@ class XMLParser:
                 file_xml = parsed_xml
                 file_xml.find(text='%%_name_%%').replace_with(file)
                 print(file_xml)
-                #file_xml.find(text='%%_clip_duration_%%').replace_with(str(self.base_duration / len(directory)))
-                #tag = file_xml.clipitem
+                file_xml.find(text='%%_clip_duration_%%').replace_with(str(self.base_duration / len(directory)))
+                tag = file_xml.clipitem
                 #print(tag)
-                #file_xml.find(text='%%_clip_id_%%').replace_with(str(clip_id))
-                #file_xml.find(text='%%_clip_start_%%').replace_with(str(clip_start))
+                file_xml.find(text='%%_clip_id_%%').replace_with(str(clip_id))
+                file_xml.find(text='%%_clip_start_%%').replace_with(str(clip_start))
                 clip_start += (self.base_duration / len(directory))
-                #file_xml.find(text='%%_clip_end_%%').replace_with(str(clip_start))
+                file_xml.find(text='%%_clip_end_%%').replace_with(str(clip_start))
                 #print(file_xml)
+
 
 
     def get_length(self, filename):
