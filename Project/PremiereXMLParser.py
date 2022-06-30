@@ -57,7 +57,7 @@ class XMLParser:
             file_xml.find(text='%%_clip_start_%%').replace_with(str(clip_start))
             clip_start += (self.base_duration / len(directory))
             file_xml.find(text='%%_clip_end_%%').replace_with(str(clip_start))
-            #print(file_xml)
+            
 
             f = open(self.images_xml_path + file[0:-4] + '.txt', 'w')
             f.write(str(file_xml))
