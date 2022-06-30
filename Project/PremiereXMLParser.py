@@ -29,39 +29,46 @@ class XMLParser:
     def write_body_xml(self):
 
         directory = os.listdir('F:/Video_Resources/Albert_Ein/images/')
+        directory.sort(key=lambda f: int(re.sub('\D', '', f)))
         clip_id = 1
         clip_start = 0
 
         with open('Testing_XML_Writing/track.xml') as f:
             content = f.read()
             parsed_xml = BeautifulSoup(content, 'html.parser')
-            tag = parsed_xml.clipitem['id']
+
             #print(tag)
             #print(parsed_xml)
             if not os.path.exists(self.images_xml_path):
                 os.makedirs(self.images_xml_path)
-        for file in directory:
 
+        for file in directory:
+            print(file)
+            duration = self.base_duration / len(directory)
             file_xml = BeautifulSoup(content, 'html.parser')
             file_xml.find(text='%%_name_%%').replace_with(file)
-            file_xml.find(text='%%_clip_duration_%%').replace_with(str(self.base_duration / len(directory)))
+            file_xml.find(text='%%_clip_duration_%%').replace_with(str(duration))
+            file_xml.find(text='masterclip-%%_master_clip_id_%%').replace_with("masterclip-" + str(clip_id))
 
             clip_item_tag = file_xml.clipitem
             master_clip_id_tag = file_xml.masterclipid
             file_id_tag = file_xml.file
-            print(file_id_tag)
+            #print(file_id_tag)
             clip_item_tag['id'] = "clipitem-" + str(clip_id)
-            master_clip_id_tag['id'] = "masterclip-" + str(clip_id)
+
             file_id_tag['id'] = "file-" + str(clip_id)
 
-            file_xml.find(text='%%_clip_start_%%').replace_with(str(clip_start))
-            clip_start += (self.base_duration / len(directory))
-            file_xml.find(text='%%_clip_end_%%').replace_with(str(clip_start))
-            
+            file_xml.find(text='_clip_start_').replace_with(str(clip_start))
+            #print(file_xml.start)
+            clip_start += duration
+            #print(str(clip_start))
+            file_xml.find(text='_clip_end_').replace_with(str(clip_start))
+            #print(file_xml.end)
+            #print(str(clip_start))
 
-            f = open(self.images_xml_path + file[0:-4] + '.txt', 'w')
-            f.write(str(file_xml))
-            f.close()
+            with open(self.images_xml_path + file[0:-4] + '.txt', 'w') as f:
+                f.write(str(file_xml))
+                f.close()
             clip_id += 1
 
 
