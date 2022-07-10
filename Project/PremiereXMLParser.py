@@ -24,10 +24,14 @@ class XMLParser:
             parsed_xml.find(text='%%_uuid_%%').replace_with(str(self.xml_uuid))
             parsed_xml.find(text='%%_duration_%%').replace_with(str(self.base_duration))
             parsed_xml.find(text='%%_name_%%').replace_with(self.base_name)
-            print(parsed_xml)
+            f.close()
+
+        with open('images/heading.xml', 'w') as f:
+            f.write(str(parsed_xml))
+            f.close()
 
     def write_body_xml(self):
-
+        directory_path = 'F:/Video_Resources/Albert_Ein/images/'
         directory = os.listdir('F:/Video_Resources/Albert_Ein/images/')
         directory.sort(key=lambda f: int(re.sub('\D', '', f)))
         clip_id = 1
@@ -46,12 +50,14 @@ class XMLParser:
             print(file)
             duration = self.base_duration / len(directory)
             file_xml = BeautifulSoup(content, 'html.parser')
-            file_xml.find(text='%%_name_%%').replace_with(file)
+            names = file_xml.find_all(text='%%_name_%%')
+            for name in names:
+                name.replace_with(file)
             file_xml.find(text='%%_clip_duration_%%').replace_with(str(duration))
             file_xml.find(text='masterclip-%%_master_clip_id_%%').replace_with("masterclip-" + str(clip_id))
+            file_xml.find(text='%%_path_%%').replace_with('file://localhost/F%3a/Video_Resources/Albert_Ein/images/' + file)
 
             clip_item_tag = file_xml.clipitem
-            master_clip_id_tag = file_xml.masterclipid
             file_id_tag = file_xml.file
             #print(file_id_tag)
             clip_item_tag['id'] = "clipitem-" + str(clip_id)
@@ -66,13 +72,25 @@ class XMLParser:
             #print(file_xml.end)
             #print(str(clip_start))
 
-            with open(self.images_xml_path + file[0:-4] + '.txt', 'w') as f:
+            with open(self.images_xml_path + 'initial' + '.xml', 'a') as f:
                 f.write(str(file_xml))
                 f.close()
             clip_id += 1
 
+    def write_the_whole_thing(self):
+        with open('images/heading.xml') as f:
+            content = f.read()
+        soup = BeautifulSoup(content, 'html.parser')
 
-        #print(self.body_sections)
+        print(soup)
+        with open('images/initial.xml') as g:
+            initial = g.read()
+            #print(initial)
+            soup.find('tra').replace_with(initial)
+            g.close()
+        with open('images/final.xml', 'w') as r:
+            r.write(str(soup))
+            print('should be written')
 
     def get_length(self, filename):
         """
@@ -90,6 +108,7 @@ class XMLParser:
 
 if __name__ == "__main__":
     c = XMLParser
-    #c.write_header_xml(c)
+    c.write_header_xml(c)
     c.write_body_xml(c)
+    c.write_the_whole_thing(c)
 

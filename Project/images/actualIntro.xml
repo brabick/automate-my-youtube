@@ -1,0 +1,2773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="4">
+	<sequence id="sequence-4" TL.SQAudioVisibleBase="0" TL.SQVideoVisibleBase="0" TL.SQVisibleBaseTime="0" TL.SQAVDividerPosition="0.5" TL.SQHideShyTracks="0" TL.SQHeaderWidth="236" TL.SQDataTrackViewControlState="0" Monitor.ProgramZoomOut="280544360113840" Monitor.ProgramZoomIn="0" TL.SQTimePerPixel="0.58309257803603531" AM.TrackVScrollPosition="0" AM.TrackScrollPosition="0" MZ.EditLine="4566262054723" MZ.Sequence.PreviewFrameSizeHeight="1080" MZ.Sequence.PreviewFrameSizeWidth="1920" MZ.Sequence.AudioTimeDisplayFormat="200" MZ.Sequence.PreviewRenderingClassID="1297106761" MZ.Sequence.PreviewRenderingPresetCodec="1297107278" MZ.Sequence.PreviewRenderingPresetPath="EncoderPresets\SequencePreview\9678af98-a7b7-4bdb-b477-7ac9c8df4a4e\I-Frame Only MPEG.epr" MZ.Sequence.PreviewUseMaxRenderQuality="false" MZ.Sequence.PreviewUseMaxBitDepth="false" MZ.Sequence.EditingModeGUID="9678af98-a7b7-4bdb-b477-7ac9c8df4a4e" MZ.Sequence.VideoTimeDisplayFormat="998" MZ.WorkOutPoint="167288342400000" MZ.WorkInPoint="0" explodedTracks="true">
+		<uuid>9afb18fa-ecc0-4202-bb84-38cca4713670</uuid>
+		<duration>26480</duration>
+		<rate>
+			<timebase>23</timebase>
+			<ntsc>FALSE</ntsc>
+		</rate>
+		<name>actualIntro</name>
+		<media>
+			<video>
+				<format>
+					<samplecharacteristics>
+						<rate>
+							<timebase>23</timebase>
+							<ntsc>FALSE</ntsc>
+						</rate>
+						<codec>
+							<name>Apple ProRes 422</name>
+							<appspecificdata>
+								<appname>Final Cut Pro</appname>
+								<appmanufacturer>Apple Inc.</appmanufacturer>
+								<appversion>7.0</appversion>
+								<data>
+									<qtcodec>
+										<codecname>Apple ProRes 422</codecname>
+										<codectypename>Apple ProRes 422</codectypename>
+										<codectypecode>apcn</codectypecode>
+										<codecvendorcode>appl</codecvendorcode>
+										<spatialquality>1024</spatialquality>
+										<temporalquality>0</temporalquality>
+										<keyframerate>0</keyframerate>
+										<datarate>0</datarate>
+									</qtcodec>
+								</data>
+							</appspecificdata>
+						</codec>
+						<width>1920</width>
+						<height>1080</height>
+						<anamorphic>FALSE</anamorphic>
+						<pixelaspectratio>square</pixelaspectratio>
+						<fielddominance>none</fielddominance>
+						<colordepth>24</colordepth>
+					</samplecharacteristics>
+				</format>
+				<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1">
+					<transitionitem>
+						<start>171</start>
+						<end>201</end>
+						<alignment>start-black</alignment>
+						<cutPointTicks>0</cutPointTicks>
+						<rate>
+							<timebase>23</timebase>
+							<ntsc>FALSE</ntsc>
+						</rate>
+						<effect>
+							<name>Cross Dissolve</name>
+							<effectid>Cross Dissolve</effectid>
+							<effectcategory>Dissolve</effectcategory>
+							<effecttype>transition</effecttype>
+							<mediatype>video</mediatype>
+							<wipecode>0</wipecode>
+							<wipeaccuracy>100</wipeaccuracy>
+							<startratio>0</startratio>
+							<endratio>1</endratio>
+							<reverse>FALSE</reverse>
+						</effect>
+					</transitionitem>
+					<clipitem id="clipitem-14">
+						<masterclipid>masterclip-6</masterclipid>
+						<name>2021-07-23_12-15-47.mp4</name>
+						<enabled>TRUE</enabled>
+						<duration>25827</duration>
+						<rate>
+							<timebase>23</timebase>
+							<ntsc>FALSE</ntsc>
+						</rate>
+						<start>-1</start>
+						<end>25998</end>
+						<in>0</in>
+						<out>25827</out>
+						<pproTicksIn>0</pproTicksIn>
+						<pproTicksOut>273626102290791</pproTicksOut>
+						<alphatype>none</alphatype>
+						<pixelaspectratio>square</pixelaspectratio>
+						<anamorphic>FALSE</anamorphic>
+						<file id="file-4">
+							<name>2021-07-23_12-15-47.mp4</name>
+							<pathurl>file://localhost/F%3a/Videos/300%20Subs/2021-07-23_12-15-47.mp4</pathurl>
+							<rate>
+								<timebase>29</timebase>
+								<ntsc>FALSE</ntsc>
+							</rate>
+							<duration>32284</duration>
+							<timecode>
+								<rate>
+									<timebase>29</timebase>
+									<ntsc>FALSE</ntsc>
+								</rate>
+								<string>00:00:00:00</string>
+								<frame>0</frame>
+								<displayformat>NDF</displayformat>
+							</timecode>
+							<media>
+								<video>
+									<samplecharacteristics>
+										<rate>
+											<timebase>29</timebase>
+											<ntsc>FALSE</ntsc>
+										</rate>
+										<width>1920</width>
+										<height>1080</height>
+										<anamorphic>FALSE</anamorphic>
+										<pixelaspectratio>square</pixelaspectratio>
+										<fielddominance>none</fielddominance>
+									</samplecharacteristics>
+								</video>
+								<audio>
+									<samplecharacteristics>
+										<depth>16</depth>
+										<samplerate>44100</samplerate>
+									</samplecharacteristics>
+									<channelcount>2</channelcount>
+								</audio>
+							</media>
+						</file>
+						<link>
+							<linkclipref>clipitem-14</linkclipref>
+							<mediatype>video</mediatype>
+							<trackindex>1</trackindex>
+							<clipindex>2</clipindex>
+						</link>
+						<link>
+							<linkclipref>clipitem-17</linkclipref>
+							<mediatype>audio</mediatype>
+							<trackindex>1</trackindex>
+							<clipindex>1</clipindex>
+							<groupindex>1</groupindex>
+						</link>
+						<link>
+							<linkclipref>clipitem-18</linkclipref>
+							<mediatype>audio</mediatype>
+							<trackindex>2</trackindex>
+							<clipindex>1</clipindex>
+							<groupindex>1</groupindex>
+						</link>
+						<logginginfo>
+							<description></description>
+							<scene></scene>
+							<shottake></shottake>
+							<lognote></lognote>
+							<good></good>
+							<originalvideofilename></originalvideofilename>
+							<originalaudiofilename></originalaudiofilename>
+						</logginginfo>
+						<colorinfo>
+							<lut></lut>
+							<lut1></lut1>
+							<asc_sop></asc_sop>
+							<asc_sat></asc_sat>
+							<lut2></lut2>
+						</colorinfo>
+						<labels>
+							<label2>Iris</label2>
+						</labels>
+					</clipitem>
+					<clipitem id="clipitem-15">
+						<masterclipid>masterclip-7</masterclipid>
+						<name>Graphic</name>
+						<enabled>TRUE</enabled>
+						<duration>1035765</duration>
+						<rate>
+							<timebase>23</timebase>
+							<ntsc>FALSE</ntsc>
+						</rate>
+						<start>25998</start>
+						<end>26480</end>
+						<in>86313</in>
+						<out>86796</out>
+						<pproTicksIn>914449597979829</pproTicksIn>
+						<pproTicksOut>919566777962268</pproTicksOut>
+						<alphatype>straight</alphatype>
+						<pixelaspectratio>square</pixelaspectratio>
+						<anamorphic>FALSE</anamorphic>
+						<file id="file-5">
+							<name>Graphic</name>
+							<mediaSource>GraphicAndType</mediaSource>
+							<rate>
+								<timebase>30</timebase>
+								<ntsc>TRUE</ntsc>
+							</rate>
+							<timecode>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>TRUE</ntsc>
+								</rate>
+								<string>00;00;00;00</string>
+								<frame>0</frame>
+								<displayformat>DF</displayformat>
+							</timecode>
+							<media>
+								<video>
+									<samplecharacteristics>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>TRUE</ntsc>
+										</rate>
+										<width>1920</width>
+										<height>1080</height>
+										<anamorphic>FALSE</anamorphic>
+										<pixelaspectratio>square</pixelaspectratio>
+										<fielddominance>none</fielddominance>
+									</samplecharacteristics>
+								</video>
+							</media>
+						</file>
+						<filter>
+							<effect>
+								<name>YGO Brandon</name>
+								<effectid>GraphicAndType</effectid>
+								<effectcategory>graphic</effectcategory>
+								<effecttype>filter</effecttype>
+								<mediatype>video</mediatype>
+								<pproBypass>false</pproBypass>
+								<parameter authoringApp="PremierePro">
+									<parameterid>1</parameterid>
+									<name>Source Text</name>
+									<hash>a94dbc99-4ba6-4151-3a68-998600000118</hash>
+									<value>AAEAAAAAAABEMyIREAAAAAwAEAAEAAAACAAMAAwAAAA8AAAACAAAABAAAAAAAAAACAAWAAQADAAIAAAAwbS8jvscUCfhCnwMAAAA1wAADgAQAAgABAAAAAAADAAOAAAAGAAAACwAAAACAAAAeP///3z///+A////AQAAAAQAAAAIAAAARmxvb2RTdGQAAAAAAQAAAAwAAAAIAAwABAAIAAgAAABYAAAANAAAADAAEAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAAAAEADAAAAAMAAAAAAAAAV10w0L4/////P///wQABAAEAAAACwAAAFlHTyBCcmFuZG9uAA==</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>2</parameterid>
+									<name>Transform</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>11</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>3</parameterid>
+									<name>Position</name>
+									<Keyframes>914768166312000,0.5:0.61295062303543091,5,0,0,0.16666666666666666,5.2422223779638495,0.27505060840520024,5,4,0,0,-1.6919448910260483e-17,-0.092105189959208175;914852922984000,0.5:0.060319483280181885,5,0,1.2347721553289424,0.25088562866177661,1.4576545394441012,0.2896883815868046,5,4,1.6215229495840709e-17,0.088271598021189376,-1.6215229495840709e-17,-0.088271598021189376;914969463408000,0.5:0.083321034908294678,5,0,0,0.57088087288922174,0,0.16666666666666666,5,4,-2.3473980480659103e-19,-0.0038335919380187988,0,0;919143727040103,0.5:0.083321034908294678,5,0,0,0.33333333333333331,0,0.33333333333333331,5,4,0,0,5.9720428796804457e-18,0.097530861695607499;919292051216103,0.5:0.6685062050819397,5,0,1.4163483257691987,0.94219128335491309,1.3545401246613342,0.33333333333333331,5,4,-5.9720428796804457e-18,-0.097530861695607499,0,0;</Keyframes>
+									<value>-91445760000000000,0.5:0.6546173095703125,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>4</parameterid>
+									<name>Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>5</parameterid>
+									<name>Horizontal Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>6</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>7</parameterid>
+									<name>Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>8</parameterid>
+									<name>Opacity</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>100</UpperBound>
+									<Keyframes>914775120000000,0.,0,0,0,0.16666666666666666,1023.0179028142892,0.16666666666666666;914799950064000,100.,0,0,1023.0179028142892,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>9</parameterid>
+									<name>Anchor Point</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0:-0.029629629629629627,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>10</parameterid>
+									<name></name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>12</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>11</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>8</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>32768</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>12</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>8</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>32768</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>13</parameterid>
+									<name>start</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>8</ParameterControlType>
+									<LowerBound>-100</LowerBound>
+									<UpperBound>1000000000</UpperBound>
+									<value>-91445760000000000,-1.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>14</parameterid>
+									<name>end</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>8</ParameterControlType>
+									<LowerBound>-100</LowerBound>
+									<UpperBound>1000000000</UpperBound>
+									<value>-91445760000000000,-1.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>15</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>16</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>17</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>18</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>19</parameterid>
+									<name>Parent Width</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>20</parameterid>
+									<name>Parent Height</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>21</parameterid>
+									<name>Parent Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>22</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+							</effect>
+						</filter>
+						<filter>
+							<effect>
+								<name>SUBSCRIBE</name>
+								<effectid>GraphicAndType</effectid>
+								<effectcategory>graphic</effectcategory>
+								<effecttype>filter</effecttype>
+								<mediatype>video</mediatype>
+								<pproBypass>false</pproBypass>
+								<parameter authoringApp="PremierePro">
+									<parameterid>1</parameterid>
+									<name>Source Text</name>
+									<hash>fab34022-cd18-38ea-85da-7c6e00000168</hash>
+									<value>UAEAAAAAAABEMyIREAAAAAwAEAAEAAAACAAMAAwAAABIAAAACAAAABAAAAAAAAAACAAaAAQADAAIAAAA8De6I6Hv6NPHvjcyAAABHwAAAAAAABYAFAAMAAQAAAAAABAAAAAAAAAACAAWAAAAHAAAADwAAABsAAAAAgAAAKz///+w////tP///wEAAAAEAAAADgAAAFJvYm90by1SZWd1bGFyAAAIAAwABAAIAAgAAAAIAAAADAAAAAAAAAAAAAAAwv///wAAAAEQAAAAjC6fQgQABAAEAAAAnv///wBQUFABAAAADAAAAAgADgAEAAgACAAAAFgAAAAoAAAAAAAiABAAAAAMAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAIgAAAAAAAAEcAAAAjC6fQgQABgAEAAAAAAAKAAgABQAGAAcACgAAAABQUFAJAAAAU1VCU0NSSUJFAAAA</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>2</parameterid>
+									<name>Transform</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>11</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>3</parameterid>
+									<name>Position</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.533050537109375:0.092421472072601318,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>4</parameterid>
+									<name>Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>5</parameterid>
+									<name>Horizontal Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>6</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>7</parameterid>
+									<name>Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>8</parameterid>
+									<name>Opacity</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>100</UpperBound>
+									<Keyframes>915033030912000,0.,0,0,0,0.16666666666666666,144.30014430010036,0.16666666666666666;915209064000000,100.,0,0,144.30014430010036,0.16666666666666666,0,0.16666666666666666;919234061480103,100.,0,0,0,0.16666666666666666,-479.99999999965075,0.16666666666666666;919286981480103,0.,0,0,-479.99999999965075,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>9</parameterid>
+									<name>Anchor Point</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,-0.0034042596817016602:-0.024205751772280099,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>10</parameterid>
+									<name></name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>12</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>11</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>8</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>32768</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>12</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>8</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>32768</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>13</parameterid>
+									<name>start</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>8</ParameterControlType>
+									<LowerBound>-100</LowerBound>
+									<UpperBound>1000000000</UpperBound>
+									<value>-91445760000000000,9.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>14</parameterid>
+									<name>end</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>8</ParameterControlType>
+									<LowerBound>-100</LowerBound>
+									<UpperBound>1000000000</UpperBound>
+									<value>-91445760000000000,9.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>15</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>16</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>17</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>18</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>19</parameterid>
+									<name>Parent Width</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>20</parameterid>
+									<name>Parent Height</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>21</parameterid>
+									<name>Parent Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>22</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+							</effect>
+						</filter>
+						<filter>
+							<effect>
+								<name>Shape</name>
+								<effectid>GraphicAndShape</effectid>
+								<effectcategory>graphic</effectcategory>
+								<effecttype>filter</effecttype>
+								<mediatype>video</mediatype>
+								<pproBypass>false</pproBypass>
+								<parameter authoringApp="PremierePro">
+									<parameterid>1</parameterid>
+									<name>Path</name>
+									<hash>71625028-fa0b-dc75-a812-acd700000111</hash>
+									<value>AgAAAAkAAAAAAAAAAACAPwAAoEAAAIA/AACgQAAAgD8AAKBAAQAAAK602MCbPTtBsK5ZPxtKE0GZT2bBGzFjQQEAAAAQANDBAABkQnaVvMHwvEpBqmrjwWKoykIBAAAACAAwwgAAtkIIADDCAACiQggAMMIAAMpCAQAAAID/P0AAANRCIAAgwQAA1ELg/39BAADUQgEAAAD4/0NCAAC2Qvj/P0IAAMxC+P9HQgAAoEIBAAAA8P//QQAAZELw//dBAADMQvj/A0IAAEBBAQAAAJRmTkGozTNBvsKiQdSRbEFYj65A+BL2QAEAAACosclAkBmeQP6DC0GIyRRBqLZ4QIAAFT8B</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>2</parameterid>
+									<name>Appearance</name>
+									<hash>a829d7b5-2683-f403-877a-40cb0000066a</hash>
+									<value>VgYAAAAAAAB7ACIAbQBTAHQAeQBsAGUAIgA6AHsAIgBtAEEAZABkAGkAdABpAG8AbgBhAGwAUwB0AHIAbwBrAGUAcwAiADoAWwBdACwAIgBtAEYAaQBsAGwAQwBvAGwAbwByACIAOgAxADMAOAA0ADgAOQAxADMALAAiAG0ARgBpAGwAbABDAG8AbABvAHIAVAB5AHAAZQAiADoAMAAsACIAbQBGAGkAbABsAFYAaQBzAGkAYgBsAGUAIgA6AHQAcgB1AGUALAAiAG0ARwByAGEAZABpAGUAbgB0AEkAbgBmAG8AIgA6AHsAIgBtAEMAbwBsAG8AcgBTAHQAbwBwAHMAIgA6AFsAewAiAG0AQwBvAGwAbwByACIAOgA4ADMANQA1ADcAMQAxACwAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADAAfQAsAHsAIgBtAEMAbwBsAG8AcgAiADoAMQA2ADcANwA3ADIAMQA1ACwAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADEAfQBdACwAIgBtAEUAbgBkAFgAIgA6ADUANwAuADcANwA4ADUANwA5ADcAMQAxADkAMQA0ADAANgAzACwAIgBtAEUAbgBkAFkAIgA6ADQAOAAuADUAMAA5ADMANwA2ADUAMgA1ADgANwA4ADkAMAA2ACwAIgBtAEgAaQBsAGkAdABlAEEAbgBnAGwAZQAiADoAMAAsACIAbQBIAGkAbABpAHQAZQBMAGUAbgBnAHQAaAAiADoAMAAsACIAbQBPAHAAYQBjAGkAdAB5AFMAdABvAHAAcwAiADoAWwB7ACIAbQBNAGkAZABQAG8AaQBuAHQAIgA6ADAALgA1ACwAIgBtAE8AcABhAGMAaQB0AHkAIgA6ADEALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADAAfQAsAHsAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0ATwBwAGEAYwBpAHQAeQAiADoAMQAsACIAbQBSAGEAbQBwAFAAbwBpAG4AdAAiADoAMQB9AF0ALAAiAG0AUwB0AGEAcgB0AFgAIgA6ADMALgAyADUAOQA1ADAANgAyADIANQA1ADgANQA5ADMANwA1ACwAIgBtAFMAdABhAHIAdABZACIAOgAzADgALgA1ADAAOQAzADcANgA1ADIANQA4ADcAOAA5ADAANgB9ACwAIgBtAEkAcwBNAGEAcwBrACIAOgBmAGEAbABzAGUALAAiAG0ASQBzAE0AYQBzAGsASQBuAHYAZQByAHQAZQBkACIAOgBmAGEAbABzAGUALAAiAG0ATABpAG4AZQBDAGEAcABUAHkAcABlACIAOgAwACwAIgBtAEwAaQBuAGUASgBvAGkAbgBUAHkAcABlACIAOgAwACwAIgBtAE0AaQB0AGUAcgBMAGkAbQBpAHQAIgA6ADIALgA1ACwAIgBtAE4AdQBtAFMAdAByAG8AawBlAHMAIgA6ADEALAAiAG0AUwBoAGEAZABvAHcAQQBuAGcAbABlACIAOgAxADMANQAsACIAbQBTAGgAYQBkAG8AdwBCAGwAdQByACIAOgA0ADAALAAiAG0AUwBoAGEAZABvAHcAQwBvAGwAbwByACIAOgA0ADEANAA0ADkANQA5ACwAIgBtAFMAaABhAGQAbwB3AE8AZgBmAHMAZQB0ACIAOgA3ACwAIgBtAFMAaABhAGQAbwB3AE8AcABhAGMAaQB0AHkAIgA6ADcANQAsACIAbQBTAGgAYQBkAG8AdwBTAGkAegBlACIAOgAwACwAIgBtAFMAaABhAGQAbwB3AFYAaQBzAGkAYgBsAGUAIgA6AGYAYQBsAHMAZQAsACIAbQBTAHQAcgBvAGsAZQBDAG8AbABvAHIAIgA6ADEANgA3ADcANwAyADEANQAsACIAbQBTAHQAcgBvAGsAZQBWAGkAcwBpAGIAbABlACIAOgBmAGEAbABzAGUALAAiAG0AUwB0AHIAbwBrAGUAVwBpAGQAdABoACIAOgAxAH0ALAAiAG0AVgBlAHIAcwBpAG8AbgAiADoAMQB9AA==</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>3</parameterid>
+									<name>Transform</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>11</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>4</parameterid>
+									<name>Position</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,-0.041080713272094727:-0.018653929233551025,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>5</parameterid>
+									<name>Scale</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<Keyframes>914955048000000,0.,0,0,0,0.16666666666666666,436.80000000063563,0.16666666666666666;915007968000000,91.,0,0,436.80000000063563,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>6</parameterid>
+									<name>Horizontal Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,91.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>7</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>8</parameterid>
+									<name>Rotation</name>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<Keyframes>914955048000000,-45.,5,0,180.00000000026193,0.33333333333333331,180.00000000026193,0.33333333333333331;915007968000000,30.,5,0,66.666666666666671,0.33333333333333331,66.666666666666671,0.33333333333333331;915050304000000,-20.,5,0,-58.355678088650798,0.33333333333333331,-58.355678088650798,0.33333333333333331;915095025852233,10.,5,0,51.984253222894772,0.33333333333333331,51.984253222894772,0.33333333333333331;915148032055806,0.,5,0,-23.960968988277905,0.33333333333333331,-23.960968988277905,0.33333333333333331;</Keyframes>
+									<value>-91445760000000000,-45.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>9</parameterid>
+									<name>Opacity</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>100</UpperBound>
+									<Keyframes>919234061480103,100.,0,0,0,0.16666666666666666,-479.99999999965075,0.16666666666666666;919286981480103,0.,0,0,-479.99999999965075,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>10</parameterid>
+									<name>Anchor Point</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0:0,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>11</parameterid>
+									<name></name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>12</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>12</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>13</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>14</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>15</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>16</parameterid>
+									<name>Parent Width</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>17</parameterid>
+									<name>Parent Height</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>18</parameterid>
+									<name>Parent Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+							</effect>
+						</filter>
+						<filter>
+							<effect>
+								<name>Shape</name>
+								<effectid>GraphicAndShape</effectid>
+								<effectcategory>graphic</effectcategory>
+								<effecttype>filter</effecttype>
+								<mediatype>video</mediatype>
+								<pproBypass>false</pproBypass>
+								<parameter authoringApp="PremierePro">
+									<parameterid>1</parameterid>
+									<name>Path</name>
+									<hash>f60b02cd-3973-1fc0-3eb3-660e00000085</hash>
+									<value>AgAAAAQAAAABAAAAAADwQAAAAABA51ZAAAAAADBGOkEAAAAAAQAAAAAAcEEAAPBAAABwQUDnVkAAAHBBMEY6QQEAAAAAAPBAAABwQTBGOkEAAHBBQOdWQAAAcEEBAAAAAAAAAAAA8EAAAAAAMEY6QQAAAABA51ZAAQ==</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>2</parameterid>
+									<name>Appearance</name>
+									<hash>e0a610aa-2e57-5ecc-902e-9bcf000005f8</hash>
+									<value>5AUAAAAAAAB7ACIAbQBTAHQAeQBsAGUAIgA6AHsAIgBtAEEAZABkAGkAdABpAG8AbgBhAGwAUwB0AHIAbwBrAGUAcwAiADoAWwBdACwAIgBtAEYAaQBsAGwAQwBvAGwAbwByACIAOgAxADMAOAA0ADgAOQAxADMALAAiAG0ARgBpAGwAbABDAG8AbABvAHIAVAB5AHAAZQAiADoAMAAsACIAbQBGAGkAbABsAFYAaQBzAGkAYgBsAGUAIgA6AHQAcgB1AGUALAAiAG0ARwByAGEAZABpAGUAbgB0AEkAbgBmAG8AIgA6AHsAIgBtAEMAbwBsAG8AcgBTAHQAbwBwAHMAIgA6AFsAewAiAG0AQwBvAGwAbwByACIAOgA4ADMANQA1ADcAMQAxACwAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADAAfQAsAHsAIgBtAEMAbwBsAG8AcgAiADoAMQA2ADcANwA3ADIAMQA1ACwAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADEAfQBdACwAIgBtAEUAbgBkAFgAIgA6ADEAMQAuADIANQAsACIAbQBFAG4AZABZACIAOgA3AC4ANQAsACIAbQBIAGkAbABpAHQAZQBBAG4AZwBsAGUAIgA6ADAALAAiAG0ASABpAGwAaQB0AGUATABlAG4AZwB0AGgAIgA6ADAALAAiAG0ATwBwAGEAYwBpAHQAeQBTAHQAbwBwAHMAIgA6AFsAewAiAG0ATQBpAGQAUABvAGkAbgB0ACIAOgAwAC4ANQAsACIAbQBPAHAAYQBjAGkAdAB5ACIAOgAxACwAIgBtAFIAYQBtAHAAUABvAGkAbgB0ACIAOgAwAH0ALAB7ACIAbQBNAGkAZABQAG8AaQBuAHQAIgA6ADAALgA1ACwAIgBtAE8AcABhAGMAaQB0AHkAIgA6ADEALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADEAfQBdACwAIgBtAFMAdABhAHIAdABYACIAOgAzAC4ANwA1ACwAIgBtAFMAdABhAHIAdABZACIAOgA3AC4ANQB9ACwAIgBtAEkAcwBNAGEAcwBrACIAOgBmAGEAbABzAGUALAAiAG0ASQBzAE0AYQBzAGsASQBuAHYAZQByAHQAZQBkACIAOgBmAGEAbABzAGUALAAiAG0ATABpAG4AZQBDAGEAcABUAHkAcABlACIAOgAwACwAIgBtAEwAaQBuAGUASgBvAGkAbgBUAHkAcABlACIAOgAwACwAIgBtAE0AaQB0AGUAcgBMAGkAbQBpAHQAIgA6ADIALgA1ACwAIgBtAE4AdQBtAFMAdAByAG8AawBlAHMAIgA6ADEALAAiAG0AUwBoAGEAZABvAHcAQQBuAGcAbABlACIAOgAxADMANQAsACIAbQBTAGgAYQBkAG8AdwBCAGwAdQByACIAOgA0ADAALAAiAG0AUwBoAGEAZABvAHcAQwBvAGwAbwByACIAOgA0ADEANAA0ADkANQA5ACwAIgBtAFMAaABhAGQAbwB3AE8AZgBmAHMAZQB0ACIAOgA3ACwAIgBtAFMAaABhAGQAbwB3AE8AcABhAGMAaQB0AHkAIgA6ADcANQAsACIAbQBTAGgAYQBkAG8AdwBTAGkAegBlACIAOgAwACwAIgBtAFMAaABhAGQAbwB3AFYAaQBzAGkAYgBsAGUAIgA6AGYAYQBsAHMAZQAsACIAbQBTAHQAcgBvAGsAZQBDAG8AbABvAHIAIgA6ADEAMgA4ADUANwA5ADAANgAsACIAbQBTAHQAcgBvAGsAZQBWAGkAcwBpAGIAbABlACIAOgBmAGEAbABzAGUALAAiAG0AUwB0AHIAbwBrAGUAVwBpAGQAdABoACIAOgAxAH0ALAAiAG0AVgBlAHIAcwBpAG8AbgAiADoAMQB9AA==</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>3</parameterid>
+									<name>Transform</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>11</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>4</parameterid>
+									<name>Position</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.025021355599164963:-0.0099633075296878815,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>5</parameterid>
+									<name>Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,187.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>6</parameterid>
+									<name>Horizontal Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>7</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>8</parameterid>
+									<name>Rotation</name>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<Keyframes>915007968000000,-18.,0,0,0,0.16666666666666666,179.99999999967258,0.16666666666666666;915050304000000,12.,0,0,179.99999999967258,0.16666666666666666,-95.931958633028913,0.16666666666666666;915105909411127,-9.,0,0,-95.931958633028913,0.16666666666666666,54.27351528892882,0.16666666666666666;915148032055806,0.,0,0,54.27351528892882,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>9</parameterid>
+									<name>Opacity</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>100</UpperBound>
+									<Keyframes>919234061480103,100.,0,0,0,0.16666666666666666,-479.99999999965075,0.16666666666666666;919286981480103,0.,0,0,-479.99999999965075,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>10</parameterid>
+									<name>Anchor Point</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.0046874999999999998:-0.052546296296296292,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>11</parameterid>
+									<name></name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>12</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>12</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>13</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>14</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>15</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>16</parameterid>
+									<name>Parent Width</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,93.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>17</parameterid>
+									<name>Parent Height</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,103.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>18</parameterid>
+									<name>Parent Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+							</effect>
+						</filter>
+						<filter>
+							<effect>
+								<name>Shape</name>
+								<effectid>GraphicAndShape</effectid>
+								<effectcategory>graphic</effectcategory>
+								<effecttype>filter</effecttype>
+								<mediatype>video</mediatype>
+								<pproBypass>false</pproBypass>
+								<parameter authoringApp="PremierePro">
+									<parameterid>1</parameterid>
+									<name>Path</name>
+									<hash>6e7f75e4-41cb-ae9b-49cc-1d0200000085</hash>
+									<value>AgAAAAQAAAAAAAAAAADgwQAAwMAAAODBAADAwAAA4MEAAMDAAAAAAABAJsQAAMDAAEAmxAAAwMAAQCbEAADAwAAAAAAAQCbEAAALwwBAJsQAAAvDAEAmxAAAC8MAAAAAAADgwQAAC8MAAODBAAALwwAA4MEAAAvDAQ==</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>2</parameterid>
+									<name>Appearance</name>
+									<hash>45628ca1-b5bf-b664-8612-23e0000005e0</hash>
+									<value>zAUAAAAAAAB7ACIAbQBTAHQAeQBsAGUAIgA6AHsAIgBtAEEAZABkAGkAdABpAG8AbgBhAGwAUwB0AHIAbwBrAGUAcwAiADoAWwBdACwAIgBtAEYAaQBsAGwAQwBvAGwAbwByACIAOgAxADYANwA3ADcAMgAxADUALAAiAG0ARgBpAGwAbABDAG8AbABvAHIAVAB5AHAAZQAiADoAMAAsACIAbQBGAGkAbABsAFYAaQBzAGkAYgBsAGUAIgA6AHQAcgB1AGUALAAiAG0ARwByAGEAZABpAGUAbgB0AEkAbgBmAG8AIgA6AHsAIgBtAEMAbwBsAG8AcgBTAHQAbwBwAHMAIgA6AFsAewAiAG0AQwBvAGwAbwByACIAOgA4ADMANQA1ADcAMQAxACwAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADAAfQAsAHsAIgBtAEMAbwBsAG8AcgAiADoAMQA2ADcANwA3ADIAMQA1ACwAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADEAfQBdACwAIgBtAEUAbgBkAFgAIgA6ADAALAAiAG0ARQBuAGQAWQAiADoAMAAsACIAbQBIAGkAbABpAHQAZQBBAG4AZwBsAGUAIgA6ADAALAAiAG0ASABpAGwAaQB0AGUATABlAG4AZwB0AGgAIgA6ADAALAAiAG0ATwBwAGEAYwBpAHQAeQBTAHQAbwBwAHMAIgA6AFsAewAiAG0ATQBpAGQAUABvAGkAbgB0ACIAOgAwAC4ANQAsACIAbQBPAHAAYQBjAGkAdAB5ACIAOgAxACwAIgBtAFIAYQBtAHAAUABvAGkAbgB0ACIAOgAwAH0ALAB7ACIAbQBNAGkAZABQAG8AaQBuAHQAIgA6ADAALgA1ACwAIgBtAE8AcABhAGMAaQB0AHkAIgA6ADEALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADEAfQBdACwAIgBtAFMAdABhAHIAdABYACIAOgAwACwAIgBtAFMAdABhAHIAdABZACIAOgAwAH0ALAAiAG0ASQBzAE0AYQBzAGsAIgA6AGYAYQBsAHMAZQAsACIAbQBJAHMATQBhAHMAawBJAG4AdgBlAHIAdABlAGQAIgA6AGYAYQBsAHMAZQAsACIAbQBMAGkAbgBlAEMAYQBwAFQAeQBwAGUAIgA6ADAALAAiAG0ATABpAG4AZQBKAG8AaQBuAFQAeQBwAGUAIgA6ADAALAAiAG0ATQBpAHQAZQByAEwAaQBtAGkAdAAiADoAMgAuADUALAAiAG0ATgB1AG0AUwB0AHIAbwBrAGUAcwAiADoAMQAsACIAbQBTAGgAYQBkAG8AdwBBAG4AZwBsAGUAIgA6ADEAMwA1ACwAIgBtAFMAaABhAGQAbwB3AEIAbAB1AHIAIgA6ADQAMAAsACIAbQBTAGgAYQBkAG8AdwBDAG8AbABvAHIAIgA6ADQAMQA0ADQAOQA1ADkALAAiAG0AUwBoAGEAZABvAHcATwBmAGYAcwBlAHQAIgA6ADcALAAiAG0AUwBoAGEAZABvAHcATwBwAGEAYwBpAHQAeQAiADoANwA1ACwAIgBtAFMAaABhAGQAbwB3AFMAaQB6AGUAIgA6ADAALAAiAG0AUwBoAGEAZABvAHcAVgBpAHMAaQBiAGwAZQAiADoAdAByAHUAZQAsACIAbQBTAHQAcgBvAGsAZQBDAG8AbABvAHIAIgA6ADEANgA3ADcANwAyADEANQAsACIAbQBTAHQAcgBvAGsAZQBWAGkAcwBpAGIAbABlACIAOgBmAGEAbABzAGUALAAiAG0AUwB0AHIAbwBrAGUAVwBpAGQAdABoACIAOgAxAH0ALAAiAG0AVgBlAHIAcwBpAG8AbgAiADoAMQB9AA==</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>3</parameterid>
+									<name>Transform</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>11</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>4</parameterid>
+									<name>Position</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.075520843267440796:0.038887632776189784,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>5</parameterid>
+									<name>Scale</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<Keyframes>914891544000000,0.,5,0,20,0.33333333333333331,20,0.33333333333333331;914955048000000,100.,5,0,20,0.71902523015873021,20,0.33333333333333331;</Keyframes>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>6</parameterid>
+									<name>Horizontal Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>7</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>8</parameterid>
+									<name>Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>9</parameterid>
+									<name>Opacity</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>100</UpperBound>
+									<Keyframes>919234061480103,100.,0,0,0,0.16666666666666666,-479.99999999965075,0.16666666666666666;919286981480103,0.,0,0,-479.99999999965075,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>10</parameterid>
+									<name>Anchor Point</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,-0.18077978293101019:-0.065981688322844331,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>11</parameterid>
+									<name></name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>12</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>12</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>13</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>14</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>15</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>16</parameterid>
+									<name>Parent Width</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,432.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>17</parameterid>
+									<name>Parent Height</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,83.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>18</parameterid>
+									<name>Parent Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+							</effect>
+						</filter>
+						<filter>
+							<effect>
+								<name>Shape</name>
+								<effectid>GraphicAndShape</effectid>
+								<effectcategory>graphic</effectcategory>
+								<effecttype>filter</effecttype>
+								<mediatype>video</mediatype>
+								<pproBypass>false</pproBypass>
+								<parameter authoringApp="PremierePro">
+									<parameterid>1</parameterid>
+									<name>Path</name>
+									<hash>ec059b18-0632-25fa-cd5e-7bea00000085</hash>
+									<value>AgAAAAQAAAABAAAAAACQQwAAAAAm8QBDAAAAAG2H30MAAAAAAQAAAAAAEEQAAJBDAAAQRCbxAEMAABBEbYffQwEAAAAAAJBDAAAQRG2H30MAABBEJvEAQwAAEEQBAAAAAAAAAAAAkEMAAAAAbYffQwAAAAAm8QBDAQ==</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>2</parameterid>
+									<name>Appearance</name>
+									<hash>325772d6-8b94-7e89-eb2b-2aa6000005f0</hash>
+									<value>3AUAAAAAAAB7ACIAbQBTAHQAeQBsAGUAIgA6AHsAIgBtAEEAZABkAGkAdABpAG8AbgBhAGwAUwB0AHIAbwBrAGUAcwAiADoAWwBdACwAIgBtAEYAaQBsAGwAQwBvAGwAbwByACIAOgAxADUAMAAwADAAOAAwADQALAAiAG0ARgBpAGwAbABDAG8AbABvAHIAVAB5AHAAZQAiADoAMAAsACIAbQBGAGkAbABsAFYAaQBzAGkAYgBsAGUAIgA6AGYAYQBsAHMAZQAsACIAbQBHAHIAYQBkAGkAZQBuAHQASQBuAGYAbwAiADoAewAiAG0AQwBvAGwAbwByAFMAdABvAHAAcwAiADoAWwB7ACIAbQBDAG8AbABvAHIAIgA6ADgAMwA1ADUANwAxADEALAAiAG0ATQBpAGQAUABvAGkAbgB0ACIAOgAwAC4ANQAsACIAbQBSAGEAbQBwAFAAbwBpAG4AdAAiADoAMAB9ACwAewAiAG0AQwBvAGwAbwByACIAOgAxADYANwA3ADcAMgAxADUALAAiAG0ATQBpAGQAUABvAGkAbgB0ACIAOgAwAC4ANQAsACIAbQBSAGEAbQBwAFAAbwBpAG4AdAAiADoAMQB9AF0ALAAiAG0ARQBuAGQAWAAiADoANAAzADIALAAiAG0ARQBuAGQAWQAiADoAMgA4ADgALAAiAG0ASABpAGwAaQB0AGUAQQBuAGcAbABlACIAOgAwACwAIgBtAEgAaQBsAGkAdABlAEwAZQBuAGcAdABoACIAOgAwACwAIgBtAE8AcABhAGMAaQB0AHkAUwB0AG8AcABzACIAOgBbAHsAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0ATwBwAGEAYwBpAHQAeQAiADoAMQAsACIAbQBSAGEAbQBwAFAAbwBpAG4AdAAiADoAMAB9ACwAewAiAG0ATQBpAGQAUABvAGkAbgB0ACIAOgAwAC4ANQAsACIAbQBPAHAAYQBjAGkAdAB5ACIAOgAxACwAIgBtAFIAYQBtAHAAUABvAGkAbgB0ACIAOgAxAH0AXQAsACIAbQBTAHQAYQByAHQAWAAiADoAMQA0ADQALAAiAG0AUwB0AGEAcgB0AFkAIgA6ADIAOAA4AH0ALAAiAG0ASQBzAE0AYQBzAGsAIgA6AGYAYQBsAHMAZQAsACIAbQBJAHMATQBhAHMAawBJAG4AdgBlAHIAdABlAGQAIgA6AHQAcgB1AGUALAAiAG0ATABpAG4AZQBDAGEAcABUAHkAcABlACIAOgAwACwAIgBtAEwAaQBuAGUASgBvAGkAbgBUAHkAcABlACIAOgAwACwAIgBtAE0AaQB0AGUAcgBMAGkAbQBpAHQAIgA6ADIALgA1ACwAIgBtAE4AdQBtAFMAdAByAG8AawBlAHMAIgA6ADEALAAiAG0AUwBoAGEAZABvAHcAQQBuAGcAbABlACIAOgAxADMANQAsACIAbQBTAGgAYQBkAG8AdwBCAGwAdQByACIAOgA0ADAALAAiAG0AUwBoAGEAZABvAHcAQwBvAGwAbwByACIAOgA0ADEANAA0ADkANQA5ACwAIgBtAFMAaABhAGQAbwB3AE8AZgBmAHMAZQB0ACIAOgA3ACwAIgBtAFMAaABhAGQAbwB3AE8AcABhAGMAaQB0AHkAIgA6ADcANQAsACIAbQBTAGgAYQBkAG8AdwBTAGkAegBlACIAOgAwACwAIgBtAFMAaABhAGQAbwB3AFYAaQBzAGkAYgBsAGUAIgA6AGYAYQBsAHMAZQAsACIAbQBTAHQAcgBvAGsAZQBDAG8AbABvAHIAIgA6ADEANgA3ADcANwAyADEANQAsACIAbQBTAHQAcgBvAGsAZQBWAGkAcwBpAGIAbABlACIAOgB0AHIAdQBlACwAIgBtAFMAdAByAG8AawBlAFcAaQBkAHQAaAAiADoAMgB9ACwAIgBtAFYAZQByAHMAaQBvAG4AIgA6ADEAfQA=</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>3</parameterid>
+									<name>Transform</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>11</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>4</parameterid>
+									<name>Position</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.5:0.32962962962962961,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>5</parameterid>
+									<name>Scale</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<Keyframes>914598436415890,0.,0,0,0,0.16666666666666666,252.89942907575636,0.16666666666666666;914814385657846,215.,0,0,252.89942907575636,0.16666666666666666,0,0.16666666666666666;919244645480103,215.,0,0,0,0.16666666666666666,-5159.9999999624561,0.16666666666666666;919255229480103,0.,0,0,-5159.9999999624561,0.16666666666666666,641.14285714319033,0.16666666666666666;919329317480103,187.,0,0,641.14285714319033,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>6</parameterid>
+									<name>Horizontal Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,215.000015258789,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>7</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>8</parameterid>
+									<name>Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>9</parameterid>
+									<name>Opacity</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>100</UpperBound>
+									<Keyframes>914630673977162,100.,0,0,0,0.16666666666666666,-209.81694793750864,0.16666666666666666;914751739507138,0.,0,0,-209.81694793750864,0.16666666666666666,0,0.16666666666666666;919244645480103,0.,0,0,0,0.16666666666666666,2399.9999999825377,0.16666666666666666;919255229480103,100.,0,0,2399.9999999825377,0.16666666666666666,0,0.16666666666666666;919297565480103,100.,0,0,0,0.16666666666666666,-8,0.16666666666666666;919329317480103,0.,0,0,-8,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>10</parameterid>
+									<name>Anchor Point</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.14895833333333333:0.26481481481481484,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>11</parameterid>
+									<name></name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>12</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>12</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>13</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>14</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>15</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>16</parameterid>
+									<name>Parent Width</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>17</parameterid>
+									<name>Parent Height</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,1080.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>18</parameterid>
+									<name>Parent Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+							</effect>
+						</filter>
+						<filter>
+							<effect>
+								<name>Shape</name>
+								<effectid>GraphicAndShape</effectid>
+								<effectcategory>graphic</effectcategory>
+								<effecttype>filter</effecttype>
+								<mediatype>video</mediatype>
+								<pproBypass>false</pproBypass>
+								<parameter authoringApp="PremierePro">
+									<parameterid>1</parameterid>
+									<name>Path</name>
+									<hash>ec059b18-0632-25fa-cd5e-7bea00000085</hash>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>2</parameterid>
+									<name>Appearance</name>
+									<hash>b909b08e-706f-de78-1c1e-2ca1000005e0</hash>
+									<value>zAUAAAAAAAB7ACIAbQBTAHQAeQBsAGUAIgA6AHsAIgBtAEEAZABkAGkAdABpAG8AbgBhAGwAUwB0AHIAbwBrAGUAcwAiADoAWwBdACwAIgBtAEYAaQBsAGwAQwBvAGwAbwByACIAOgAwACwAIgBtAEYAaQBsAGwAQwBvAGwAbwByAFQAeQBwAGUAIgA6ADAALAAiAG0ARgBpAGwAbABWAGkAcwBpAGIAbABlACIAOgB0AHIAdQBlACwAIgBtAEcAcgBhAGQAaQBlAG4AdABJAG4AZgBvACIAOgB7ACIAbQBDAG8AbABvAHIAUwB0AG8AcABzACIAOgBbAHsAIgBtAEMAbwBsAG8AcgAiADoAOAAzADUANQA3ADEAMQAsACIAbQBNAGkAZABQAG8AaQBuAHQAIgA6ADAALgA1ACwAIgBtAFIAYQBtAHAAUABvAGkAbgB0ACIAOgAwAH0ALAB7ACIAbQBDAG8AbABvAHIAIgA6ADEANgA3ADcANwAyADEANQAsACIAbQBNAGkAZABQAG8AaQBuAHQAIgA6ADAALgA1ACwAIgBtAFIAYQBtAHAAUABvAGkAbgB0ACIAOgAxAH0AXQAsACIAbQBFAG4AZABYACIAOgA0ADMAMgAsACIAbQBFAG4AZABZACIAOgAyADgAOAAsACIAbQBIAGkAbABpAHQAZQBBAG4AZwBsAGUAIgA6ADAALAAiAG0ASABpAGwAaQB0AGUATABlAG4AZwB0AGgAIgA6ADAALAAiAG0ATwBwAGEAYwBpAHQAeQBTAHQAbwBwAHMAIgA6AFsAewAiAG0ATQBpAGQAUABvAGkAbgB0ACIAOgAwAC4ANQAsACIAbQBPAHAAYQBjAGkAdAB5ACIAOgAxACwAIgBtAFIAYQBtAHAAUABvAGkAbgB0ACIAOgAwAH0ALAB7ACIAbQBNAGkAZABQAG8AaQBuAHQAIgA6ADAALgA1ACwAIgBtAE8AcABhAGMAaQB0AHkAIgA6ADEALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADEAfQBdACwAIgBtAFMAdABhAHIAdABYACIAOgAxADQANAAsACIAbQBTAHQAYQByAHQAWQAiADoAMgA4ADgAfQAsACIAbQBJAHMATQBhAHMAawAiADoAdAByAHUAZQAsACIAbQBJAHMATQBhAHMAawBJAG4AdgBlAHIAdABlAGQAIgA6AHQAcgB1AGUALAAiAG0ATABpAG4AZQBDAGEAcABUAHkAcABlACIAOgAwACwAIgBtAEwAaQBuAGUASgBvAGkAbgBUAHkAcABlACIAOgAwACwAIgBtAE0AaQB0AGUAcgBMAGkAbQBpAHQAIgA6ADIALgA1ACwAIgBtAE4AdQBtAFMAdAByAG8AawBlAHMAIgA6ADEALAAiAG0AUwBoAGEAZABvAHcAQQBuAGcAbABlACIAOgAxADMANQAsACIAbQBTAGgAYQBkAG8AdwBCAGwAdQByACIAOgA0ADAALAAiAG0AUwBoAGEAZABvAHcAQwBvAGwAbwByACIAOgA0ADEANAA0ADkANQA5ACwAIgBtAFMAaABhAGQAbwB3AE8AZgBmAHMAZQB0ACIAOgA3ACwAIgBtAFMAaABhAGQAbwB3AE8AcABhAGMAaQB0AHkAIgA6ADcANQAsACIAbQBTAGgAYQBkAG8AdwBTAGkAegBlACIAOgAwACwAIgBtAFMAaABhAGQAbwB3AFYAaQBzAGkAYgBsAGUAIgA6AGYAYQBsAHMAZQAsACIAbQBTAHQAcgBvAGsAZQBDAG8AbABvAHIAIgA6ADEANgA3ADcANwAyADEANQAsACIAbQBTAHQAcgBvAGsAZQBWAGkAcwBpAGIAbABlACIAOgBmAGEAbABzAGUALAAiAG0AUwB0AHIAbwBrAGUAVwBpAGQAdABoACIAOgAxAH0ALAAiAG0AVgBlAHIAcwBpAG8AbgAiADoAMQB9AA==</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>3</parameterid>
+									<name>Transform</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>11</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>4</parameterid>
+									<name>Position</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.5:0.32962962962962961,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>5</parameterid>
+									<name>Scale</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<Keyframes>914630673977162,0.,5,0,53.431222796407873,0.33333333333333331,35.216744949926188,0.58617774915348697;914814385657846,75.,5,0,53.431222796407873,0.33333333333333331,53.431222796407873,0.33333333333333331;914817456000000,75.,4,0,0,0.33333333333333331,0,0.33333333333333331;919239437480103,75.,5,0,0,0.33333333333333331,0,0.33333333333333331;919382237480103,0.,5,0,-66.705882352940606,0.33333333333333331,-66.705882352940606,0.33333333333333331;</Keyframes>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>6</parameterid>
+									<name>Horizontal Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,75.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>7</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>8</parameterid>
+									<name>Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>9</parameterid>
+									<name>Opacity</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>100</UpperBound>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>10</parameterid>
+									<name>Anchor Point</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.14895833333333333:0.26481481481481484,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>11</parameterid>
+									<name></name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>12</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>12</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>13</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>14</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>15</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>16</parameterid>
+									<name>Parent Width</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>17</parameterid>
+									<name>Parent Height</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,1080.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>18</parameterid>
+									<name>Parent Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+							</effect>
+						</filter>
+						<filter>
+							<effect>
+								<name>Shape</name>
+								<effectid>GraphicAndShape</effectid>
+								<effectcategory>graphic</effectcategory>
+								<effecttype>filter</effecttype>
+								<mediatype>video</mediatype>
+								<pproBypass>false</pproBypass>
+								<parameter authoringApp="PremierePro">
+									<parameterid>1</parameterid>
+									<name>Path</name>
+									<hash>ec059b18-0632-25fa-cd5e-7bea00000085</hash>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>2</parameterid>
+									<name>Appearance</name>
+									<hash>7b8e29a9-5af1-da74-cbab-5ff3000005ee</hash>
+									<value>2gUAAAAAAAB7ACIAbQBTAHQAeQBsAGUAIgA6AHsAIgBtAEEAZABkAGkAdABpAG8AbgBhAGwAUwB0AHIAbwBrAGUAcwAiADoAWwBdACwAIgBtAEYAaQBsAGwAQwBvAGwAbwByACIAOgAxADUAMAAwADAAOAAwADQALAAiAG0ARgBpAGwAbABDAG8AbABvAHIAVAB5AHAAZQAiADoAMAAsACIAbQBGAGkAbABsAFYAaQBzAGkAYgBsAGUAIgA6AHQAcgB1AGUALAAiAG0ARwByAGEAZABpAGUAbgB0AEkAbgBmAG8AIgA6AHsAIgBtAEMAbwBsAG8AcgBTAHQAbwBwAHMAIgA6AFsAewAiAG0AQwBvAGwAbwByACIAOgA4ADMANQA1ADcAMQAxACwAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADAAfQAsAHsAIgBtAEMAbwBsAG8AcgAiADoAMQA2ADcANwA3ADIAMQA1ACwAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADEAfQBdACwAIgBtAEUAbgBkAFgAIgA6ADQAMwAyACwAIgBtAEUAbgBkAFkAIgA6ADIAOAA4ACwAIgBtAEgAaQBsAGkAdABlAEEAbgBnAGwAZQAiADoAMAAsACIAbQBIAGkAbABpAHQAZQBMAGUAbgBnAHQAaAAiADoAMAAsACIAbQBPAHAAYQBjAGkAdAB5AFMAdABvAHAAcwAiADoAWwB7ACIAbQBNAGkAZABQAG8AaQBuAHQAIgA6ADAALgA1ACwAIgBtAE8AcABhAGMAaQB0AHkAIgA6ADEALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADAAfQAsAHsAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0ATwBwAGEAYwBpAHQAeQAiADoAMQAsACIAbQBSAGEAbQBwAFAAbwBpAG4AdAAiADoAMQB9AF0ALAAiAG0AUwB0AGEAcgB0AFgAIgA6ADEANAA0ACwAIgBtAFMAdABhAHIAdABZACIAOgAyADgAOAB9ACwAIgBtAEkAcwBNAGEAcwBrACIAOgBmAGEAbABzAGUALAAiAG0ASQBzAE0AYQBzAGsASQBuAHYAZQByAHQAZQBkACIAOgB0AHIAdQBlACwAIgBtAEwAaQBuAGUAQwBhAHAAVAB5AHAAZQAiADoAMAAsACIAbQBMAGkAbgBlAEoAbwBpAG4AVAB5AHAAZQAiADoAMAAsACIAbQBNAGkAdABlAHIATABpAG0AaQB0ACIAOgAyAC4ANQAsACIAbQBOAHUAbQBTAHQAcgBvAGsAZQBzACIAOgAxACwAIgBtAFMAaABhAGQAbwB3AEEAbgBnAGwAZQAiADoAMQAzADUALAAiAG0AUwBoAGEAZABvAHcAQgBsAHUAcgAiADoANAAwACwAIgBtAFMAaABhAGQAbwB3AEMAbwBsAG8AcgAiADoANAAxADQANAA5ADUAOQAsACIAbQBTAGgAYQBkAG8AdwBPAGYAZgBzAGUAdAAiADoANwAsACIAbQBTAGgAYQBkAG8AdwBPAHAAYQBjAGkAdAB5ACIAOgA3ADUALAAiAG0AUwBoAGEAZABvAHcAUwBpAHoAZQAiADoAMAAsACIAbQBTAGgAYQBkAG8AdwBWAGkAcwBpAGIAbABlACIAOgB0AHIAdQBlACwAIgBtAFMAdAByAG8AawBlAEMAbwBsAG8AcgAiADoAMQA2ADcANwA3ADIAMQA1ACwAIgBtAFMAdAByAG8AawBlAFYAaQBzAGkAYgBsAGUAIgA6AGYAYQBsAHMAZQAsACIAbQBTAHQAcgBvAGsAZQBXAGkAZAB0AGgAIgA6ADEAfQAsACIAbQBWAGUAcgBzAGkAbwBuACIAOgAxAH0A</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>3</parameterid>
+									<name>Transform</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>11</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>4</parameterid>
+									<name>Position</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.5:0.32962962962962961,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>5</parameterid>
+									<name>Scale</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<Keyframes>914552856000000,0.,5,0,53.431222796407873,0.33333333333333331,35.216744949926188,0.58617774915348697;914790559712086,90.,5,0,53.431222796407873,0.33333333333333331,53.431222796407873,0.33333333333333331;914796288000000,90.,4,0,0,0.33333333333333331,0,0.33333333333333331;919350485480103,90.,5,0,0,0.33333333333333331,0,0.33333333333333331;919424573480103,0.,5,0,-154.28571428579448,0.33333333333333331,-154.28571428579448,0.33333333333333331;</Keyframes>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>6</parameterid>
+									<name>Horizontal Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,90.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>7</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>8</parameterid>
+									<name>Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>9</parameterid>
+									<name>Opacity</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>100</UpperBound>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>10</parameterid>
+									<name>Anchor Point</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.14895833333333333:0.26481481481481484,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>11</parameterid>
+									<name></name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>12</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>12</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>13</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>14</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>15</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>16</parameterid>
+									<name>Parent Width</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>17</parameterid>
+									<name>Parent Height</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,1080.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>18</parameterid>
+									<name>Parent Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+							</effect>
+						</filter>
+						<filter>
+							<effect>
+								<name>Shape</name>
+								<effectid>GraphicAndShape</effectid>
+								<effectcategory>graphic</effectcategory>
+								<effecttype>filter</effecttype>
+								<mediatype>video</mediatype>
+								<pproBypass>false</pproBypass>
+								<parameter authoringApp="PremierePro">
+									<parameterid>1</parameterid>
+									<name>Path</name>
+									<hash>8fb31f35-298a-e16b-fedb-069900000085</hash>
+									<value>AgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAEUAAAAAAMAARQAAAAAAwABFAAAAAAAAAAAAwABFAMCURADAAEUAwJREAMAARQDAlEQAAAAAAAAAAADAlEQAAAAAAMCURAAAAAAAwJREAQ==</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>2</parameterid>
+									<name>Appearance</name>
+									<hash>490b0b5c-4681-7d59-f70a-786400000154</hash>
+									<value>PAEAAAAAAABEMyIRDAAAAAAABgAKAAQABgAAADQAAAAAAC4AFAAQAAAAAAAAAAAADAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAuAAAAJAAAAAAAlkLkAAAAzAAAABQAHAAYABQAEAAMAAAAAAAIAAQAFAAAABgAAABMAAAAAMAURAAgwUQAwBREAMAARAIAAAAsAAAAEAAAAAAACgAOAAAABAAIAAoAAAAAAIA/AAAAPwAACgAIAAAAAAAEAAoAAAAAAAA/AgAAADQAAAAQAAAAAAAKABAABAAIAAwACgAAAAwAAAAAAIA/AAAAP9z///8AAAoADAAEAAAACAAKAAAACAAAAAAAAD/a////AH9/fwQABgAEAAAAAAAKAAoABwAIAAkACgAAAAAAAP+0AAoACAAFAAYABwAKAAAAAD8/Pw==</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>3</parameterid>
+									<name>Transform</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>11</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>4</parameterid>
+									<name>Position</name>
+									<Keyframes>914457600000000,-0.03125:1.0277777910232544,5,0,2.1481481716036797,0.33333333333333331,2.1481481716036797,0.33333333333333331,5,4,0,0,-3.2884034780608567e-17,-0.17901234763363996;914542272000000,-0.03125:-0.046296294778585434,5,0,2.1481481716036797,0.33333333333333331,2.1481481716036797,0.33333333333333331,5,4,3.2884034780608567e-17,0.17901234763363996,0,0;919413989480103,-0.03125:-0.046296294778585434,5,0,0,0.33333333333333331,0,0.33333333333333331,5,4,0,0,1.1282625957245907e-17,0.18425926504035792;919562165480103,-0.03125:1.059259295463562,5,0,2.052240132012785,0.33333333333333331,2.052240132012785,0.33333333333333331,5,4,-1.1282625957245907e-17,-0.18425926504035792,0,0;</Keyframes>
+									<value>-91445760000000000,-0.03125:-0.046296294778585434,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>5</parameterid>
+									<name>Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>6</parameterid>
+									<name>Horizontal Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>7</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>8</parameterid>
+									<name>Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>9</parameterid>
+									<name>Opacity</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>100</UpperBound>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>10</parameterid>
+									<name>Anchor Point</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0:0,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>11</parameterid>
+									<name></name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>12</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>12</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>13</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>14</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>15</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>16</parameterid>
+									<name>Parent Width</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,1920.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>17</parameterid>
+									<name>Parent Height</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,1080.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>18</parameterid>
+									<name>Parent Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+							</effect>
+						</filter>
+						<logginginfo>
+							<description></description>
+							<scene></scene>
+							<shottake></shottake>
+							<lognote></lognote>
+							<good></good>
+							<originalvideofilename></originalvideofilename>
+							<originalaudiofilename></originalaudiofilename>
+						</logginginfo>
+						<colorinfo>
+							<lut></lut>
+							<lut1></lut1>
+							<asc_sop></asc_sop>
+							<asc_sat></asc_sat>
+							<lut2></lut2>
+						</colorinfo>
+						<labels>
+						</labels>
+					</clipitem>
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+				</track>
+				<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="0">
+					<clipitem id="clipitem-16">
+						<masterclipid>masterclip-8</masterclipid>
+						<name>Graphic</name>
+						<enabled>TRUE</enabled>
+						<duration>1035765</duration>
+						<rate>
+							<timebase>23</timebase>
+							<ntsc>FALSE</ntsc>
+						</rate>
+						<start>0</start>
+						<end>-1</end>
+						<in>86312</in>
+						<out>86485</out>
+						<pproTicksIn>914439003404296</pproTicksIn>
+						<pproTicksOut>916271864971505</pproTicksOut>
+						<alphatype>straight</alphatype>
+						<pixelaspectratio>square</pixelaspectratio>
+						<anamorphic>FALSE</anamorphic>
+						<file id="file-6">
+							<name>Graphic</name>
+							<mediaSource>GraphicAndType</mediaSource>
+							<rate>
+								<timebase>30</timebase>
+								<ntsc>TRUE</ntsc>
+							</rate>
+							<timecode>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>TRUE</ntsc>
+								</rate>
+								<string>00;00;00;00</string>
+								<frame>0</frame>
+								<displayformat>DF</displayformat>
+							</timecode>
+							<media>
+								<video>
+									<samplecharacteristics>
+										<rate>
+											<timebase>30</timebase>
+											<ntsc>TRUE</ntsc>
+										</rate>
+										<width>1920</width>
+										<height>1080</height>
+										<anamorphic>FALSE</anamorphic>
+										<pixelaspectratio>square</pixelaspectratio>
+										<fielddominance>none</fielddominance>
+									</samplecharacteristics>
+								</video>
+							</media>
+						</file>
+						<filter>
+							<effect>
+								<name>Opacity</name>
+								<effectid>opacity</effectid>
+								<effectcategory>motion</effectcategory>
+								<effecttype>motion</effecttype>
+								<mediatype>video</mediatype>
+								<pproBypass>false</pproBypass>
+								<parameter authoringApp="PremierePro">
+									<parameterid>opacity</parameterid>
+									<name>opacity</name>
+									<valuemin>0</valuemin>
+									<valuemax>100</valuemax>
+									<value>78.6364</value>
+								</parameter>
+							</effect>
+						</filter>
+						<filter>
+							<effect>
+								<name>Vector Motion</name>
+								<effectid>GraphicGroup</effectid>
+								<effectcategory>graphic</effectcategory>
+								<effecttype>filter</effecttype>
+								<mediatype>video</mediatype>
+								<pproBypass>false</pproBypass>
+								<parameter authoringApp="PremierePro">
+									<parameterid>1</parameterid>
+									<name>Position</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.5:0.5,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>2</parameterid>
+									<name>Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>10000</UpperBound>
+									<UpperUIBound>200</UpperUIBound>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>3</parameterid>
+									<name>Scale Width</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>10000</UpperBound>
+									<UpperUIBound>200</UpperUIBound>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>4</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>5</parameterid>
+									<name>Rotation</name>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<Keyframes>915594577974617,0.,0,0,0,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>6</parameterid>
+									<name>Anchor Point</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.5:0.5,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+							</effect>
+						</filter>
+						<filter>
+							<effect>
+								<name>ygo brandon</name>
+								<effectid>GraphicAndType</effectid>
+								<effectcategory>graphic</effectcategory>
+								<effecttype>filter</effecttype>
+								<mediatype>video</mediatype>
+								<pproBypass>false</pproBypass>
+								<parameter authoringApp="PremierePro">
+									<parameterid>1</parameterid>
+									<name>Source Text</name>
+									<hash>c4d10add-13c2-3318-b50b-a5bc00000208</hash>
+									<value>8AEAAAAAAABEMyIRFAAAAAAADgAUAAQAAAAMABAACwAOAAAAXAAAAAAAAAEIAAAAEAAAAAAAAAAIABQABAAMAAgAAACwuoLTrtgJDaPdDe0AAADXLAAgAAgABAAAAAAAHAAYABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAADAAsAAAAPAAAAFAAAAAAAMhCIAAAAAAAcMIBAAAAAgAAAND+//8AAAoACAAFAAYABwAKAAAAAAAAAAQABAAEAAAAAQAAAAQAAAAIAAAARmxvb2RTdGQAAAAAAQAAAAwAAAAIAAwABAAIAAgAAAAAAQAANAAAADAAEgAAAAwACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEADAAAAAYAAAAuAAAAHE9+EIAAAoADAAAAAgABAAKAAAACAAAADwAAAACAAAALAAAABAAAAAAAAoADgAAAAQACAAKAAAAAACAPwAAAD8AAAoACAAAAAAABAAKAAAAAAAAPwIAAAA0AAAAEAAAAAAACgAQAAQACAAMAAoAAAAMAAAAAACAPwAAAD/c////AAAKAAwABAAAAAgACgAAAAgAAAAAAAA/7v///wAAtAAEAAYABAAAAAAACgAIAAAABgAHAAoAAAAAALQACwAAAHlnbyBicmFuZG9uAA==</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>2</parameterid>
+									<name>Transform</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>11</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>3</parameterid>
+									<name>Position</name>
+									<Keyframes>914449132800000,0.50000005960464478:0.39690914750099182,0,0,0,0.16666666666666666,0.40688530699723008,0.16666666666666666,5,4,0,0,-4.6359169291544887e-09,0.011728392890941955;914493559241124,0.50000003178914321:0.46727950484664355,0,0,0.40235490935761392,0.16666666666666666,0,0.16666666666666666,5,4,4.6359169291544887e-09,-0.011728392890941955,0,0;916147885416494,0.50000003178914321:0.46727950484664355,0,0,0,0.16666666666666666,0.62509944495767988,0.16666666666666666,5,4,0,0,4.6359169280896492e-09,0.00036082481160575514;916198434745584,0.50000005960464478:0.46944445371627808,0,0,0.62509944495767988,0.16666666666666666,3.3984737779661685,0.16666666666666666,5,4,-4.6359169292433651e-09,-0.14125588352297558,4.6359169292433651e-09,0.14125588352297558;916261621225584,0.50000005960464478:1.3148148059844971,0,0,3.3984737779661689,0.16666666666666666,1669.7530743058226,0.16666666666666666,5,4,-3.4188056111223761e-17,-0.55833332737286889,3.4188056111223761e-17,0.55833332737286889;916262002249584,0.50000005960464478:3.8194444179534912,0,0,1669.7530743058226,0.16666666666666666,0,0.16666666666666666,5,4,-2.5560721977895882e-17,-0.41743826866149902,0,0;</Keyframes>
+									<value>-91445760000000000,0.50000003178914321:0.46727950484664355,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>4</parameterid>
+									<name>Scale</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<Keyframes>914450328792000,34.,5,0,45.483496929681372,0.33333333333333331,2994.6352159474695,0.50071912153284215;914634627022476,100.,5,0,-37443.493293247004,0.16422206802436623,74.592074592104595,0.33333333333333331;914641031304000,90.,5,0,0,0.33333333333333331,0,0.33333333333333331;914651625888000,100.,0,0,239.76023975844822,0.16666666666666666,0,0.16666666666666666;916147885416494,100.,0,0,0,0.16666666666666666,80.401779275096985,0.16666666666666666;916198434745584,116.,0,0,80.401779275096985,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>5</parameterid>
+									<name>Horizontal Scale</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<Keyframes>914634627022476,100.,0,0,0,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>6</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>7</parameterid>
+									<name>Rotation</name>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<Keyframes>916198434745584,0.,0,0,0,0.16666666666666666,-49.362009465378009,0.16666666666666666;916244748581361,-9.,0,0,-49.362009465378009,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>8</parameterid>
+									<name>Opacity</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>100</UpperBound>
+									<Keyframes>914449132800000,0.,0,0,0,0.16666666666666666,3000.0000000027285,0.16666666666666666;914457600000000,100.,0,0,3000.0000000027285,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>9</parameterid>
+									<name>Anchor Point</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.0013891220092773437:-0.035512853551793983,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>10</parameterid>
+									<name></name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>12</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>11</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>8</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>32768</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>12</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>8</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>32768</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>13</parameterid>
+									<name>start</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>8</ParameterControlType>
+									<LowerBound>-100</LowerBound>
+									<UpperBound>1000000000</UpperBound>
+									<value>-91445760000000000,-1.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>14</parameterid>
+									<name>end</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>8</ParameterControlType>
+									<LowerBound>-100</LowerBound>
+									<UpperBound>1000000000</UpperBound>
+									<value>-91445760000000000,-1.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>15</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>16</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>17</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>18</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>19</parameterid>
+									<name>Parent Width</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>20</parameterid>
+									<name>Parent Height</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>21</parameterid>
+									<name>Parent Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>22</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+							</effect>
+						</filter>
+						<filter>
+							<effect>
+								<name>Shape</name>
+								<effectid>GraphicAndShape</effectid>
+								<effectcategory>graphic</effectcategory>
+								<effecttype>filter</effecttype>
+								<mediatype>video</mediatype>
+								<pproBypass>false</pproBypass>
+								<parameter authoringApp="PremierePro">
+									<parameterid>1</parameterid>
+									<name>Path</name>
+									<hash>e6d8505b-2e8a-b54c-0b4a-9e2b00000261</hash>
+									<value>AgAAABUAAAAAAAAAgFr7QaicbcKAWvtBqJxtwoBa+0GonG3CAAAAADXrs0T6BCtBNeuzRPoEK0E167NE+gQrQQAAAADeQbZEbtx3Qd5BtkRu3HdB3kG2RG7cd0EAAAAA5SG1RDYPiEHlIbVENg+IQeUhtUQ2D4hBAAAAAF+0tkSIX7FBX7S2RIhfsUFftLZEiF+xQQAAAACj+7REIpm/QaP7tEQimb9Bo/u0RCKZv0EAAAAAF9a3RDd+70EX1rdEN37vQRfWt0Q3fu9BAAAAAEUztUQAsuNBRTO1RACy40FFM7VEALLjQQAAAACF77VEYKj/QYXvtURgqP9Bhe+1RGCo/0EAAAAAVHoMQlCbEkJUegxCUJsSQlR6DEJQmxJCAAAAAOPSg0IxVM1B49KDQjFUzUHj0oNCMVTNQQAAAABItbpBH6DOQUi1ukEfoM5BSLW6QR+gzkEAAAAAeO5BQm8QAUF47kFCbxABQXjuQUJvEAFBAAAAANqnxEFQu0lA2qfEQVC7SUDap8RBULtJQAAAAACkOYlCSHzqwKQ5iUJIfOrApDmJQkh86sAAAAAAgOVrwEBIIcGA5WvAQEghwYDla8BASCHBAQAAAMVjYEI89p7BJWNkQryunsFlZFxCvD2fwQAAAAAw8CtAKO3KwTDwK0Ao7crBMPArQCjtysEAAAAAorJmQgOOJcKismZCA44lwqKyZkIDjiXCAAAAAMzD4kF/jEHCzMPiQX+MQcLMw+JBf4xBwgAAAAAqiY5C6OlMwiqJjkLo6UzCKomOQujpTMIB</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>2</parameterid>
+									<name>Appearance</name>
+									<hash>febd5d69-c04f-70a3-4b1b-aef4000005a6</hash>
+									<value>kgUAAAAAAAB7ACIAbQBTAHQAeQBsAGUAIgA6AHsAIgBtAEYAaQBsAGwAQwBvAGwAbwByACIAOgAxADMANAA0ADAANgAwADMALAAiAG0ARgBpAGwAbABDAG8AbABvAHIAVAB5AHAAZQAiADoAMAAsACIAbQBGAGkAbABsAFYAaQBzAGkAYgBsAGUAIgA6AHQAcgB1AGUALAAiAG0ARwByAGEAZABpAGUAbgB0AEkAbgBmAG8AIgA6AHsAIgBtAEMAbwBsAG8AcgBTAHQAbwBwAHMAIgA6AFsAewAiAG0AQwBvAGwAbwByACIAOgA4ADMANQA1ADcAMQAxACwAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADAAfQAsAHsAIgBtAEMAbwBsAG8AcgAiADoAMQA2ADcANwA3ADIAMQA1ACwAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0AUgBhAG0AcABQAG8AaQBuAHQAIgA6ADEAfQBdACwAIgBtAEUAbgBkAFgAIgA6ADEAMQAwADUALgA2ADgAOQAzADMAMQAwADUANAA2ADgANwA1ACwAIgBtAEUAbgBkAFkAIgA6AC0AMgAzAC4AMgAyADIAOAA4ADUAMQAzADEAOAAzADUAOQAzADgALAAiAG0ASABpAGwAaQB0AGUAQQBuAGcAbABlACIAOgAwACwAIgBtAEgAaQBsAGkAdABlAEwAZQBuAGcAdABoACIAOgAwACwAIgBtAE8AcABhAGMAaQB0AHkAUwB0AG8AcABzACIAOgBbAHsAIgBtAE0AaQBkAFAAbwBpAG4AdAAiADoAMAAuADUALAAiAG0ATwBwAGEAYwBpAHQAeQAiADoAMQAsACIAbQBSAGEAbQBwAFAAbwBpAG4AdAAiADoAMAB9ACwAewAiAG0ATQBpAGQAUABvAGkAbgB0ACIAOgAwAC4ANQAsACIAbQBPAHAAYQBjAGkAdAB5ACIAOgAxACwAIgBtAFIAYQBtAHAAUABvAGkAbgB0ACIAOgAxAH0AXQAsACIAbQBTAHQAYQByAHQAWAAiADoAMwA3ADUALgA2ADgANwA0ADYAOQA0ADgAMgA0ADIAMQA4ADgALAAiAG0AUwB0AGEAcgB0AFkAIgA6AC0AMgAzAC4AMgAyADIAOAA4ADUAMQAzADEAOAAzADUAOQAzADgAfQAsACIAbQBTAGgAYQBkAG8AdwBBAG4AZwBsAGUAIgA6ADIANAAxAC4ANwA4ADIANgA1ADMAOAAwADgANQA5ADMANwA1ACwAIgBtAFMAaABhAGQAbwB3AEIAbAB1AHIAIgA6ADAALAAiAG0AUwBoAGEAZABvAHcAQwBvAGwAbwByACIAOgA5ADMAMAA2ADgAMwAxACwAIgBtAFMAaABhAGQAbwB3AE8AZgBmAHMAZQB0ACIAOgAxADUALgA4ADMANwAxADAANAA3ADkANwAzADYAMwAyADgAMQAsACIAbQBTAGgAYQBkAG8AdwBPAHAAYQBjAGkAdAB5ACIAOgAxADAAMAAsACIAbQBTAGgAYQBkAG8AdwBTAGkAegBlACIAOgAwACwAIgBtAFMAaABhAGQAbwB3AFYAaQBzAGkAYgBsAGUAIgA6AGYAYQBsAHMAZQAsACIAbQBTAHQAcgBvAGsAZQBDAG8AbABvAHIAIgA6ADEAMAA0ADkANQAwADUAOQAsACIAbQBTAHQAcgBvAGsAZQBWAGkAcwBpAGIAbABlACIAOgBmAGEAbABzAGUALAAiAG0AUwB0AHIAbwBrAGUAVwBpAGQAdABoACIAOgA1ADAAfQAsACIAbQBWAGUAcgBzAGkAbwBuACIAOgAxAH0A</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>3</parameterid>
+									<name>Transform</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>11</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>4</parameterid>
+									<name>Position</name>
+									<Keyframes>914661816955119,0.14053891133517027:-0.010568872152362019,0,0,0,0.16666666666666666,1.7558215045270242,0.16666666666666666,5,4,0,0,0.022916665383511114,0.00030864201555097504;914681710985058,0.27803890363623696:-0.0087170200590561686,0,0,1.7558215045270242,0.16666666666666666,0.00092416242365565067,0.16666666666666666,5,4,-0.022916665383511114,-0.00030864201555097504,0,0;</Keyframes>
+									<value>-91445760000000000,0.28315413420399027:-0.0091024133894178627,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>5</parameterid>
+									<name>Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,97.91667175293,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>6</parameterid>
+									<name>Horizontal Scale</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>4000</UpperBound>
+									<value>-91445760000000000,82.632293701172,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>7</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>8</parameterid>
+									<name>Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>9</parameterid>
+									<name>Opacity</name>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>100</UpperBound>
+									<Keyframes>914645635195086,0.,0,0,0,0.16666666666666666,2397.6023976106235,0.16666666666666666;914656229779086,100.,0,0,2397.6023976106235,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+									<value>-91445760000000000,100.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>10</parameterid>
+									<name>Anchor Point</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<value>-91445760000000000,0.37507275740305585:-0.073501643428096078,0,0,0,0,0,0,5,4,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>11</parameterid>
+									<name></name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>12</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>false</UpperBound>
+									<value>-91445760000000000,false,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>12</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>13</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>14</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>15</parameterid>
+									<name> </name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>4</ParameterControlType>
+									<LowerBound>false</LowerBound>
+									<UpperBound>true</UpperBound>
+									<value>-91445760000000000,true,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>16</parameterid>
+									<name>Parent Width</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,1106.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>17</parameterid>
+									<name>Parent Height</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>2</ParameterControlType>
+									<LowerBound>0</LowerBound>
+									<UpperBound>20000</UpperBound>
+									<value>-91445760000000000,129.,0,0,0,0,0,0</value>
+								</parameter>
+								<parameter authoringApp="PremierePro">
+									<parameterid>18</parameterid>
+									<name>Parent Rotation</name>
+									<IsTimeVarying>false</IsTimeVarying>
+									<ParameterControlType>3</ParameterControlType>
+									<LowerBound>-32768</LowerBound>
+									<UpperBound>32767</UpperBound>
+									<value>-91445760000000000,0.,0,0,0,0,0,0</value>
+								</parameter>
+							</effect>
+						</filter>
+						<logginginfo>
+							<description></description>
+							<scene></scene>
+							<shottake></shottake>
+							<lognote></lognote>
+							<good></good>
+							<originalvideofilename></originalvideofilename>
+							<originalaudiofilename></originalaudiofilename>
+						</logginginfo>
+						<colorinfo>
+							<lut></lut>
+							<lut1></lut1>
+							<asc_sop></asc_sop>
+							<asc_sat></asc_sat>
+							<lut2></lut2>
+						</colorinfo>
+						<labels>
+						</labels>
+					</clipitem>
+					<transitionitem>
+						<start>141</start>
+						<end>171</end>
+						<alignment>end-black</alignment>
+						<cutPointTicks>317837265990</cutPointTicks>
+						<rate>
+							<timebase>23</timebase>
+							<ntsc>FALSE</ntsc>
+						</rate>
+						<effect>
+							<name>Cross Dissolve</name>
+							<effectid>Cross Dissolve</effectid>
+							<effectcategory>Dissolve</effectcategory>
+							<effecttype>transition</effecttype>
+							<mediatype>video</mediatype>
+							<wipecode>0</wipecode>
+							<wipeaccuracy>100</wipeaccuracy>
+							<startratio>0</startratio>
+							<endratio>1</endratio>
+							<reverse>FALSE</reverse>
+						</effect>
+					</transitionitem>
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+				</track>
+				<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="0">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+				</track>
+				<track TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="0">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+				</track>
+			</video>
+			<audio>
+				<numOutputChannels>2</numOutputChannels>
+				<format>
+					<samplecharacteristics>
+						<depth>16</depth>
+						<samplerate>44100</samplerate>
+					</samplecharacteristics>
+				</format>
+				<outputs>
+					<group>
+						<index>1</index>
+						<numchannels>1</numchannels>
+						<downmix>0</downmix>
+						<channel>
+							<index>1</index>
+						</channel>
+					</group>
+					<group>
+						<index>2</index>
+						<numchannels>1</numchannels>
+						<downmix>0</downmix>
+						<channel>
+							<index>2</index>
+						</channel>
+					</group>
+				</outputs>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<clipitem id="clipitem-17" premiereChannelType="stereo">
+						<masterclipid>masterclip-6</masterclipid>
+						<name>2021-07-23_12-15-47.mp4</name>
+						<enabled>TRUE</enabled>
+						<duration>25827</duration>
+						<rate>
+							<timebase>23</timebase>
+							<ntsc>FALSE</ntsc>
+						</rate>
+						<start>171</start>
+						<end>25998</end>
+						<in>0</in>
+						<out>25827</out>
+						<pproTicksIn>0</pproTicksIn>
+						<pproTicksOut>273626102290791</pproTicksOut>
+						<file id="file-4"/>
+						<sourcetrack>
+							<mediatype>audio</mediatype>
+							<trackindex>1</trackindex>
+						</sourcetrack>
+						<link>
+							<linkclipref>clipitem-14</linkclipref>
+							<mediatype>video</mediatype>
+							<trackindex>1</trackindex>
+							<clipindex>2</clipindex>
+						</link>
+						<link>
+							<linkclipref>clipitem-17</linkclipref>
+							<mediatype>audio</mediatype>
+							<trackindex>1</trackindex>
+							<clipindex>1</clipindex>
+							<groupindex>1</groupindex>
+						</link>
+						<link>
+							<linkclipref>clipitem-18</linkclipref>
+							<mediatype>audio</mediatype>
+							<trackindex>2</trackindex>
+							<clipindex>1</clipindex>
+							<groupindex>1</groupindex>
+						</link>
+						<logginginfo>
+							<description></description>
+							<scene></scene>
+							<shottake></shottake>
+							<lognote></lognote>
+							<good></good>
+							<originalvideofilename></originalvideofilename>
+							<originalaudiofilename></originalaudiofilename>
+						</logginginfo>
+						<colorinfo>
+							<lut></lut>
+							<lut1></lut1>
+							<asc_sop></asc_sop>
+							<asc_sat></asc_sat>
+							<lut2></lut2>
+						</colorinfo>
+						<labels>
+							<label2>Iris</label2>
+						</labels>
+					</clipitem>
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter authoringApp="PremierePro">
+								<parameterid>level</parameterid>
+								<name>Level</name>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>2.67332</value>
+							</parameter>
+						</effect>
+					</filter>
+					<outputchannelindex>1</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<clipitem id="clipitem-18" premiereChannelType="stereo">
+						<masterclipid>masterclip-6</masterclipid>
+						<name>2021-07-23_12-15-47.mp4</name>
+						<enabled>TRUE</enabled>
+						<duration>25827</duration>
+						<rate>
+							<timebase>23</timebase>
+							<ntsc>FALSE</ntsc>
+						</rate>
+						<start>171</start>
+						<end>25998</end>
+						<in>0</in>
+						<out>25827</out>
+						<pproTicksIn>0</pproTicksIn>
+						<pproTicksOut>273626102290791</pproTicksOut>
+						<file id="file-4"/>
+						<sourcetrack>
+							<mediatype>audio</mediatype>
+							<trackindex>2</trackindex>
+						</sourcetrack>
+						<link>
+							<linkclipref>clipitem-14</linkclipref>
+							<mediatype>video</mediatype>
+							<trackindex>1</trackindex>
+							<clipindex>2</clipindex>
+						</link>
+						<link>
+							<linkclipref>clipitem-17</linkclipref>
+							<mediatype>audio</mediatype>
+							<trackindex>1</trackindex>
+							<clipindex>1</clipindex>
+							<groupindex>1</groupindex>
+						</link>
+						<link>
+							<linkclipref>clipitem-18</linkclipref>
+							<mediatype>audio</mediatype>
+							<trackindex>2</trackindex>
+							<clipindex>1</clipindex>
+							<groupindex>1</groupindex>
+						</link>
+						<logginginfo>
+							<description></description>
+							<scene></scene>
+							<shottake></shottake>
+							<lognote></lognote>
+							<good></good>
+							<originalvideofilename></originalvideofilename>
+							<originalaudiofilename></originalaudiofilename>
+						</logginginfo>
+						<colorinfo>
+							<lut></lut>
+							<lut1></lut1>
+							<asc_sop></asc_sop>
+							<asc_sat></asc_sat>
+							<lut2></lut2>
+						</colorinfo>
+						<labels>
+							<label2>Iris</label2>
+						</labels>
+					</clipitem>
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter authoringApp="PremierePro">
+								<parameterid>level</parameterid>
+								<name>Level</name>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>2.67332</value>
+							</parameter>
+						</effect>
+					</filter>
+					<outputchannelindex>2</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter authoringApp="PremierePro">
+								<parameterid>level</parameterid>
+								<name>Level</name>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>0.150919</value>
+							</parameter>
+						</effect>
+					</filter>
+					<outputchannelindex>1</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter authoringApp="PremierePro">
+								<parameterid>level</parameterid>
+								<name>Level</name>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>0.150919</value>
+							</parameter>
+						</effect>
+					</filter>
+					<outputchannelindex>2</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="0" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<clipitem id="clipitem-19" premiereChannelType="stereo">
+						<masterclipid>masterclip-9</masterclipid>
+						<name>Arcade.wav</name>
+						<enabled>TRUE</enabled>
+						<duration>2582</duration>
+						<rate>
+							<timebase>23</timebase>
+							<ntsc>FALSE</ntsc>
+						</rate>
+						<start>0</start>
+						<end>-1</end>
+						<in>350</in>
+						<out>542</out>
+						<pproTicksIn>3708101436550</pproTicksIn>
+						<pproTicksOut>5742259938886</pproTicksOut>
+						<file id="file-7">
+							<name>Arcade.wav</name>
+							<pathurl>file://localhost/C%3a/Users/brabi/Downloads/Arcade.wav</pathurl>
+							<rate>
+								<timebase>30</timebase>
+								<ntsc>TRUE</ntsc>
+							</rate>
+							<duration>3228</duration>
+							<timecode>
+								<rate>
+									<timebase>30</timebase>
+									<ntsc>TRUE</ntsc>
+								</rate>
+								<string>01;00;00;00</string>
+								<frame>107892</frame>
+								<displayformat>DF</displayformat>
+							</timecode>
+							<media>
+								<audio>
+									<samplecharacteristics>
+										<depth>16</depth>
+										<samplerate>44100</samplerate>
+									</samplecharacteristics>
+									<channelcount>2</channelcount>
+								</audio>
+							</media>
+						</file>
+						<sourcetrack>
+							<mediatype>audio</mediatype>
+							<trackindex>1</trackindex>
+						</sourcetrack>
+						<link>
+							<linkclipref>clipitem-19</linkclipref>
+							<mediatype>audio</mediatype>
+							<trackindex>5</trackindex>
+							<clipindex>1</clipindex>
+							<groupindex>1</groupindex>
+						</link>
+						<link>
+							<linkclipref>clipitem-20</linkclipref>
+							<mediatype>audio</mediatype>
+							<trackindex>6</trackindex>
+							<clipindex>1</clipindex>
+							<groupindex>1</groupindex>
+						</link>
+						<logginginfo>
+							<description></description>
+							<scene></scene>
+							<shottake></shottake>
+							<lognote></lognote>
+							<good></good>
+							<originalvideofilename></originalvideofilename>
+							<originalaudiofilename></originalaudiofilename>
+						</logginginfo>
+						<colorinfo>
+							<lut></lut>
+							<lut1></lut1>
+							<asc_sop></asc_sop>
+							<asc_sat></asc_sat>
+							<lut2></lut2>
+						</colorinfo>
+						<labels>
+							<label2>Caribbean</label2>
+						</labels>
+					</clipitem>
+					<transitionitem>
+						<start>168</start>
+						<end>192</end>
+						<pproTicksIn>1779888689544</pproTicksIn>
+						<pproTicksOut>2034158502336</pproTicksOut>
+						<alignment>end-black</alignment>
+						<cutPointTicks>254269812792</cutPointTicks>
+						<rate>
+							<timebase>23</timebase>
+							<ntsc>FALSE</ntsc>
+						</rate>
+						<effect>
+							<name>Cross Fade ( 0dB)</name>
+							<effectid>KGAudioTransCrossFade0dB</effectid>
+							<effecttype>transition</effecttype>
+							<mediatype>audio</mediatype>
+							<wipecode>0</wipecode>
+							<wipeaccuracy>100</wipeaccuracy>
+							<startratio>0</startratio>
+							<endratio>1</endratio>
+							<reverse>FALSE</reverse>
+						</effect>
+					</transitionitem>
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter authoringApp="PremierePro">
+								<parameterid>level</parameterid>
+								<name>Level</name>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1.30766</value>
+							</parameter>
+						</effect>
+					</filter>
+					<outputchannelindex>1</outputchannelindex>
+				</track>
+				<track TL.SQTrackAudioKeyframeStyle="0" TL.SQTrackShy="0" TL.SQTrackExpandedHeight="25" TL.SQTrackExpanded="0" MZ.TrackTargeted="1" PannerCurrentValue="0.5" PannerIsInverted="true" PannerStartKeyframe="-91445760000000000,0.5,0,0,0,0,0,0" PannerName="Balance" currentExplodedTrackIndex="1" totalExplodedTrackCount="2" premiereTrackType="Stereo">
+					<clipitem id="clipitem-20" premiereChannelType="stereo">
+						<masterclipid>masterclip-9</masterclipid>
+						<name>Arcade.wav</name>
+						<enabled>TRUE</enabled>
+						<duration>2582</duration>
+						<rate>
+							<timebase>23</timebase>
+							<ntsc>FALSE</ntsc>
+						</rate>
+						<start>0</start>
+						<end>-1</end>
+						<in>350</in>
+						<out>542</out>
+						<pproTicksIn>3708101436550</pproTicksIn>
+						<pproTicksOut>5742259938886</pproTicksOut>
+						<file id="file-7"/>
+						<sourcetrack>
+							<mediatype>audio</mediatype>
+							<trackindex>2</trackindex>
+						</sourcetrack>
+						<link>
+							<linkclipref>clipitem-19</linkclipref>
+							<mediatype>audio</mediatype>
+							<trackindex>5</trackindex>
+							<clipindex>1</clipindex>
+							<groupindex>1</groupindex>
+						</link>
+						<link>
+							<linkclipref>clipitem-20</linkclipref>
+							<mediatype>audio</mediatype>
+							<trackindex>6</trackindex>
+							<clipindex>1</clipindex>
+							<groupindex>1</groupindex>
+						</link>
+						<logginginfo>
+							<description></description>
+							<scene></scene>
+							<shottake></shottake>
+							<lognote></lognote>
+							<good></good>
+							<originalvideofilename></originalvideofilename>
+							<originalaudiofilename></originalaudiofilename>
+						</logginginfo>
+						<colorinfo>
+							<lut></lut>
+							<lut1></lut1>
+							<asc_sop></asc_sop>
+							<asc_sat></asc_sat>
+							<lut2></lut2>
+						</colorinfo>
+						<labels>
+							<label2>Caribbean</label2>
+						</labels>
+					</clipitem>
+					<transitionitem>
+						<start>168</start>
+						<end>192</end>
+						<pproTicksIn>1779888689544</pproTicksIn>
+						<pproTicksOut>2034158502336</pproTicksOut>
+						<alignment>end-black</alignment>
+						<cutPointTicks>254269812792</cutPointTicks>
+						<rate>
+							<timebase>23</timebase>
+							<ntsc>FALSE</ntsc>
+						</rate>
+						<effect>
+							<name>Cross Fade ( 0dB)</name>
+							<effectid>KGAudioTransCrossFade0dB</effectid>
+							<effecttype>transition</effecttype>
+							<mediatype>audio</mediatype>
+							<wipecode>0</wipecode>
+							<wipeaccuracy>100</wipeaccuracy>
+							<startratio>0</startratio>
+							<endratio>1</endratio>
+							<reverse>FALSE</reverse>
+						</effect>
+					</transitionitem>
+					<enabled>TRUE</enabled>
+					<locked>FALSE</locked>
+					<filter>
+						<effect>
+							<name>Audio Levels</name>
+							<effectid>audiolevels</effectid>
+							<effectcategory>audiolevels</effectcategory>
+							<effecttype>audiolevels</effecttype>
+							<mediatype>audio</mediatype>
+							<parameter authoringApp="PremierePro">
+								<parameterid>level</parameterid>
+								<name>Level</name>
+								<valuemin>0</valuemin>
+								<valuemax>3.98109</valuemax>
+								<value>1.30766</value>
+							</parameter>
+						</effect>
+					</filter>
+					<outputchannelindex>2</outputchannelindex>
+				</track>
+			</audio>
+		</media>
+		<timecode>
+			<rate>
+				<timebase>23</timebase>
+				<ntsc>FALSE</ntsc>
+			</rate>
+			<string>00:00:00:00</string>
+			<frame>0</frame>
+			<displayformat>NDF</displayformat>
+		</timecode>
+		<labels>
+			<label2>Forest</label2>
+		</labels>
+		<logginginfo>
+			<description></description>
+			<scene></scene>
+			<shottake></shottake>
+			<lognote></lognote>
+			<good></good>
+			<originalvideofilename></originalvideofilename>
+			<originalaudiofilename></originalaudiofilename>
+		</logginginfo>
+	</sequence>
+</xmeml>
