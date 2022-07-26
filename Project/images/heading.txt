@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+
+<xmeml version="4">
+<sequence am.trackscrollposition="0" am.trackvscrollposition="0" explodedtracks="true" id="sequence-5" monitor.programzoomin="0" monitor.programzoomout="159364382882122" mz.editline="0" mz.sequence.audiotimedisplayformat="200" mz.sequence.editingmodeguid="9678af98-a7b7-4bdb-b477-7ac9c8df4a4e" mz.sequence.previewframesizeheight="1080" mz.sequence.previewframesizewidth="1920" mz.sequence.previewrenderingclassid="1297106761" mz.sequence.previewrenderingpresetcodec="1297107278" mz.sequence.previewrenderingpresetpath="EncoderPresets\SequencePreview\9678af98-a7b7-4bdb-b477-7ac9c8df4a4e\I-Frame Only MPEG.epr" mz.sequence.previewusemaxbitdepth="false" mz.sequence.previewusemaxrenderquality="false" mz.sequence.videotimedisplayformat="998" mz.workinpoint="0" mz.workoutpoint="67445625600000" tl.sqaudiovisiblebase="0" tl.sqavdividerposition="0.5" tl.sqheaderwidth="236" tl.sqhideshytracks="0" tl.sqtimeperpixel="0.75538333244742151" tl.sqvideovisiblebase="0" tl.sqvisiblebasetime="0">
+<uuid>d7540216-dfdc-4140-b710-a1e2f186bce9</uuid>
+<duration>5000</duration>
+<rate>
+<timebase>29</timebase>
+<ntsc>FALSE</ntsc>
+</rate>
+<name>Albert Einstein</name>
+<media>
+<video>
+<format>
+<samplecharacteristics>
+<rate>
+<timebase>29</timebase>
+<ntsc>FALSE</ntsc>
+</rate>
+<codec>
+<name>Apple ProRes 422</name>
+<appspecificdata>
+<appname>Final Cut Pro</appname>
+<appmanufacturer>Apple Inc.</appmanufacturer>
+<appversion>7.0</appversion>
+<data>
+<qtcodec>
+<codecname>Apple ProRes 422</codecname>
+<codectypename>Apple ProRes 422</codectypename>
+<codectypecode>apcn</codectypecode>
+<codecvendorcode>appl</codecvendorcode>
+<spatialquality>1024</spatialquality>
+<temporalquality>0</temporalquality>
+<keyframerate>0</keyframerate>
+<datarate>0</datarate>
+</qtcodec>
+</data>
+</appspecificdata>
+</codec>
+<width>1920</width>
+<height>1080</height>
+<anamorphic>FALSE</anamorphic>
+<pixelaspectratio>square</pixelaspectratio>
+<fielddominance>none</fielddominance>
+<colordepth>24</colordepth>
+</samplecharacteristics>
+</format>
+<t>
+%%_tracks_%%
+</t>
+</video>
+</media>
+<timecode>
+<rate>
+<timebase>29</timebase>
+<ntsc>FALSE</ntsc>
+</rate>
+<string>00:00:00:00</string>
+<frame/>0
+			<displayformat>NDF</displayformat>
+</timecode>
+<labels>
+<label2>Forest</label2>
+</labels>
+<logginginfo>
+<description></description>
+<scene></scene>
+<shottake></shottake>
+<lognote></lognote>
+<good></good>
+<originalvideofilename></originalvideofilename>
+<originalaudiofilename></originalaudiofilename>
+</logginginfo>
+</sequence>
+</xmeml>

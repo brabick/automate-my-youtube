@@ -8,8 +8,8 @@
 							<timebase>30</timebase>
 							<ntsc>TRUE</ntsc>
 						</rate>
-						<start>%%_clip_start_%%</start>
-						<end>%%_clip_end_%%</end>
+						<start>_clip_start_</start>
+						<end>_clip_end_</end>
 						<in>107892</in>
 						<out>108040</out>
 						<pproTicksIn>914448840744787</pproTicksIn>
