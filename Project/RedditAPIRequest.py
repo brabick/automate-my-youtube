@@ -17,16 +17,6 @@ class RedditAPIRequest:
         response.replace('/n', '')
         #response.replace('', '')
 
-        if 'the OP*' in response or 'the OP.*':
-            response.replace('the OP*', 'the one this happened to.*')
-
-        if 'OP.*' in response:
-            response.replace('the OP*', 'the one this happened to.*')
-
-        if 'Reminder' in response:
-            response.replace('Reminder', 'the one this happened to.*')
-
-        print(response)
         return response
 
 
@@ -92,9 +82,23 @@ class RedditAPIRequest:
                 'downs': post['data']['downs'],
                 'score': post['data']['score']
             }, ignore_index=True)"""
+
+        for line in range(len(df)):
+            if 'the OP*' in df['selftext'][line] or 'the OP.*' in df['selftext'][line] or 'NOT OP' in df['selftext'][line]:
+                print('gotcha')
+                df['selftext'][line] = df['selftext'][line].replace(df['selftext'][line],
+                                                                    'I am not the person this happened to.*')
+
+            if 'OP.*' in df['selftext'][line]:
+                print('got it')
+                df['selftext'][line] = df['selftext'][line].replace(df['selftext'][line],
+                                                                    'I am not the person this happened to.')
+
+            if '[Original]' in df['selftext'][line]:
+                print('done')
+                df['selftext'][line] = df['selftext'][line].replace(df['selftext'][line], '')
+
         df.to_excel('out.xlsx')
-
-
 
 
 if __name__ == "__main__":
