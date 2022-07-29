@@ -12,6 +12,7 @@ class RedditAPIRequest:
     secret_key = ''
     username = ''
     password = ''
+    data_frame = ''
 
     def process_response(self, response):
         response.replace('/n', '')
@@ -54,13 +55,13 @@ class RedditAPIRequest:
         res = requests.get("https://oauth.reddit.com/r/BestofRedditorUpdates/top",
                            headers=headers, params={'limit': '100'})
 
-        df = pd.DataFrame(columns=['subreddit', 'title', 'selftext', 'upvote_ratio', 'ups', 'downs', 'score'])
+        self.data_frame = pd.DataFrame(columns=['subreddit', 'title', 'selftext', 'upvote_ratio', 'ups', 'downs', 'score'])
         data = res.json()['data']['children']
         #print(data)
         for i in range(len(data)):
             #self.ProcessResponse(data[i]['data']['selftext'])
             #print(res.json()[i])
-            df.loc[i] = pd.Series({
+            self.data_frame.loc[i] = pd.Series({
                 'subreddit': data[i]['data']['subreddit'],
                 'title': data[i]['data']['title'],
                 'selftext': self.process_response(self, data[i]['data']['selftext']),
@@ -72,7 +73,7 @@ class RedditAPIRequest:
         """
         for post in res.json()['data']['children']:
             # print(post['data']['title'], post['data']['selftext'])
-            df = pd.concat({
+            self.data_frame = pd.concat({
                 'subreddit': post['data']['subreddit'],
                 'title': post['data']['title'],
                 'selftext': post['data']['selftext'],
@@ -82,24 +83,53 @@ class RedditAPIRequest:
                 'score': post['data']['score']
             }, ignore_index=True)"""
 
-        for line in range(len(df)):
-            if 'the OP*' in df['selftext'][line] or 'the OP.*' in df['selftext'][line] or 'NOT OP' in df['selftext'][line]:
+        """for line in range(len(self.data_frame)):
+            if 'the OP*' in self.data_frame['selftext'][line] or 'the OP.*' in self.data_frame['selftext'][line] or 'NOT OP' in self.data_frame['selftext'][line]:
                 print('gotcha')
-                df['selftext'][line] = df['selftext'][line].replace(df['selftext'][line],
+                self.data_frame['selftext'][line] = self.data_frame['selftext'][line].replace(self.data_frame['selftext'][line],
                                                                     'I am not the person this happened to.*')
 
-            if 'OP.*' in df['selftext'][line]:
+            if 'OP.*' in self.data_frame['selftext'][line]:
                 print('got it')
-                df['selftext'][line] = df['selftext'][line].replace(df['selftext'][line],
+                self.data_frame['selftext'][line] = self.data_frame['selftext'][line].replace(self.data_frame['selftext'][line],
                                                                     'I am not the person this happened to.')
 
-            if '[Original]' in df['selftext'][line]:
+            if '[Original]' in self.data_frame['selftext'][line]:
                 print('done')
-                df['selftext'][line] = df['selftext'][line].replace(df['selftext'][line], '')
+                self.data_frame['selftext'][line] = self.data_frame['selftext'][line].replace(self.data_frame['selftext'][line], '')"""
 
-        df.to_excel('out.xlsx')
+        self.data_frame.to_excel('out.xlsx')
+
+    def clean_response(self):
+        df = pd.read_excel('out.xlsx')
+
+        for line in range(len(df)):
+            """if 'the OP*' in df['selftext'][line]:
+                print('gotcha')
+                df['selftext'][line] = df['selftext'][line].replace('the OP*',
+                                                                    'I am not the person this happened to.*')
+            if 'the OP.*' in df['selftext'][line]:
+                print('gotcha')
+                df['selftext'][line] = df['selftext'][line].replace('the OP.*',
+                                                                    'I am not the person this happened to.*')
+            if 'NOT OP' in df['selftext'][line]:
+                print('gotcha')
+                df['selftext'][line] = df['selftext'][line].replace('NOT OP',
+                                                                    'I am not the person this happened to.*')
+            if 'OP.*' in df['selftext'][line]:
+                print('got it')
+                df['selftext'][line] = df['selftext'][line].replace('OP*',
+                                                                    'I am not the person this happened to.')
+                                                                    """
+            if '*' in df['selftext'][line]:
+                df['selftext'][line] = df['selftext'][line].replace('*', '')
+
+            if '#' in df['selftext'][line]:
+                df['selftext'][line] = df['selftext'][line].replace('#', '')
+                
+        df.to_excel('cleaned_out.xlsx')
 
 
 if __name__ == "__main__":
     c = RedditAPIRequest
-    c.api_request(c)
+    c.clean_response(c)
