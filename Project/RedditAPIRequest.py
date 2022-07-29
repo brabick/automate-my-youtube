@@ -13,14 +13,13 @@ class RedditAPIRequest:
     username = ''
     password = ''
 
-    def ProcessResponse(self, response):
+    def process_response(self, response):
         response.replace('/n', '')
-        #response.replace('', '')
 
         return response
 
 
-    def APIRequest(self):
+    def api_request(self):
         f = open('secret_key', "r")
 
         # Gotta remove that pesky /n
@@ -53,7 +52,7 @@ class RedditAPIRequest:
         requests.get('https://oauth.reddit.com/api/v1/me', headers=headers)
 
         res = requests.get("https://oauth.reddit.com/r/BestofRedditorUpdates/top",
-                           headers=headers, params={'limit': '10'})
+                           headers=headers, params={'limit': '100'})
 
         df = pd.DataFrame(columns=['subreddit', 'title', 'selftext', 'upvote_ratio', 'ups', 'downs', 'score'])
         data = res.json()['data']['children']
@@ -64,7 +63,7 @@ class RedditAPIRequest:
             df.loc[i] = pd.Series({
                 'subreddit': data[i]['data']['subreddit'],
                 'title': data[i]['data']['title'],
-                'selftext': self.ProcessResponse(self, data[i]['data']['selftext']),
+                'selftext': self.process_response(self, data[i]['data']['selftext']),
                 'upvote_ratio': data[i]['data']['upvote_ratio'],
                 'ups': data[i]['data']['ups'],
                 'downs': data[i]['data']['downs'],
@@ -103,4 +102,4 @@ class RedditAPIRequest:
 
 if __name__ == "__main__":
     c = RedditAPIRequest
-    c.APIRequest(c)
+    c.api_request(c)
