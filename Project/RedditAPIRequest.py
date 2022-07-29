@@ -2,12 +2,15 @@ import os
 
 import requests
 import pandas as pd
+import re
+from selenium import webdriver
+from PIL import Image
+import Screenshot
 
 
 class RedditAPIRequest:
     topics = []
     topic = ''
-    url = 'r/denverbroncos/top/'
     client_id = ''
     secret_key = ''
     username = ''
@@ -19,6 +22,9 @@ class RedditAPIRequest:
 
         return response
 
+    def get_urls(self, text):
+        url = re.search("(?P<url>https?://[^\s]+)", text).group("url")
+        return url
 
     def api_request(self):
         f = open('secret_key', "r")
@@ -53,14 +59,15 @@ class RedditAPIRequest:
         requests.get('https://oauth.reddit.com/api/v1/me', headers=headers)
 
         res = requests.get("https://oauth.reddit.com/r/BestofRedditorUpdates/top",
-                           headers=headers, params={'limit': '100'})
+                           headers=headers, params={'limit': '1'})
 
-        self.data_frame = pd.DataFrame(columns=['subreddit', 'title', 'selftext', 'upvote_ratio', 'ups', 'downs', 'score'])
+        self.data_frame = pd.DataFrame(columns=['subreddit', 'title', 'selftext', 'upvote_ratio',
+                                                'ups', 'downs', 'score', 'url'])
         data = res.json()['data']['children']
+        print(data)
         #print(data)
         for i in range(len(data)):
-            #self.ProcessResponse(data[i]['data']['selftext'])
-            #print(res.json()[i])
+
             self.data_frame.loc[i] = pd.Series({
                 'subreddit': data[i]['data']['subreddit'],
                 'title': data[i]['data']['title'],
@@ -68,37 +75,12 @@ class RedditAPIRequest:
                 'upvote_ratio': data[i]['data']['upvote_ratio'],
                 'ups': data[i]['data']['ups'],
                 'downs': data[i]['data']['downs'],
-                'score': data[i]['data']['score']
+                'score': data[i]['data']['score'],
+                'url': self.get_urls(self, data[i]['data']['selftext'])
+
             })
-        """
-        for post in res.json()['data']['children']:
-            # print(post['data']['title'], post['data']['selftext'])
-            self.data_frame = pd.concat({
-                'subreddit': post['data']['subreddit'],
-                'title': post['data']['title'],
-                'selftext': post['data']['selftext'],
-                'upvote_ratio': post['data']['upvote_ratio'],
-                'ups': post['data']['ups'],
-                'downs': post['data']['downs'],
-                'score': post['data']['score']
-            }, ignore_index=True)"""
 
-        """for line in range(len(self.data_frame)):
-            if 'the OP*' in self.data_frame['selftext'][line] or 'the OP.*' in self.data_frame['selftext'][line] or 'NOT OP' in self.data_frame['selftext'][line]:
-                print('gotcha')
-                self.data_frame['selftext'][line] = self.data_frame['selftext'][line].replace(self.data_frame['selftext'][line],
-                                                                    'I am not the person this happened to.*')
-
-            if 'OP.*' in self.data_frame['selftext'][line]:
-                print('got it')
-                self.data_frame['selftext'][line] = self.data_frame['selftext'][line].replace(self.data_frame['selftext'][line],
-                                                                    'I am not the person this happened to.')
-
-            if '[Original]' in self.data_frame['selftext'][line]:
-                print('done')
-                self.data_frame['selftext'][line] = self.data_frame['selftext'][line].replace(self.data_frame['selftext'][line], '')"""
-
-        self.data_frame.to_excel('out.xlsx')
+        #self.data_frame.to_excel('out.xlsx')
 
     def clean_response(self):
         df = pd.read_excel('out.xlsx')
@@ -126,10 +108,16 @@ class RedditAPIRequest:
 
             if '#' in df['selftext'][line]:
                 df['selftext'][line] = df['selftext'][line].replace('#', '')
-                
+
         df.to_excel('cleaned_out.xlsx')
+
+    def get_screenshot(self):
+        driver = webdriver.Chrome(executable_path='chromedriver.exe')
+        url = "https://www.google.com/"
+        driver.get(url)
+        driver.save_screenshot('ss.png')
 
 
 if __name__ == "__main__":
     c = RedditAPIRequest
-    c.clean_response(c)
+    c.get_screenshot(c)
