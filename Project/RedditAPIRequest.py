@@ -6,6 +6,7 @@ import re
 from selenium import webdriver
 from PIL import Image
 import Screenshot
+import inflect
 
 
 class RedditAPIRequest:
@@ -59,7 +60,7 @@ class RedditAPIRequest:
         requests.get('https://oauth.reddit.com/api/v1/me', headers=headers)
 
         res = requests.get("https://oauth.reddit.com/r/BestofRedditorUpdates/top",
-                           headers=headers, params={'limit': '1'})
+                           headers=headers, params={'limit': '20'})
 
         self.data_frame = pd.DataFrame(columns=['subreddit', 'title', 'selftext', 'upvote_ratio',
                                                 'ups', 'downs', 'score', 'url'])
@@ -67,7 +68,8 @@ class RedditAPIRequest:
         print(data)
         #print(data)
         for i in range(len(data)):
-
+            url = self.get_urls(self, data[i]['data']['selftext'])
+            self.get_screenshot(self, url, i)
             self.data_frame.loc[i] = pd.Series({
                 'subreddit': data[i]['data']['subreddit'],
                 'title': data[i]['data']['title'],
@@ -76,16 +78,17 @@ class RedditAPIRequest:
                 'ups': data[i]['data']['ups'],
                 'downs': data[i]['data']['downs'],
                 'score': data[i]['data']['score'],
-                'url': self.get_urls(self, data[i]['data']['selftext'])
+                'url': url
 
             })
 
         #self.data_frame.to_excel('out.xlsx')
 
-    def clean_response(self):
-        df = pd.read_excel('out.xlsx')
-
+    def clean_response(self, file):
+        df = pd.read_excel(file)
+        p = inflect.engine()
         for line in range(len(df)):
+            numbers = []
             """if 'the OP*' in df['selftext'][line]:
                 print('gotcha')
                 df['selftext'][line] = df['selftext'][line].replace('the OP*',
@@ -109,15 +112,24 @@ class RedditAPIRequest:
             if '#' in df['selftext'][line]:
                 df['selftext'][line] = df['selftext'][line].replace('#', '')
 
-        df.to_excel('cleaned_out.xlsx')
+            numbers.append([int(s) for s in df['selftext'][line].split() if s.isdigit()])
+            if numbers is not None:
+                for n in numbers:
+                    for num in n:
+                        if str(num) in df['selftext'][line]:
+                            print('gotcha, replaced')
+                            df['selftext'][line] = df['selftext'][line].replace(str(num), str(p.number_to_words(int(num))))
 
-    def get_screenshot(self):
+
+        print(df['selftext'])
+        df.to_excel('another_cleaned_out.xlsx')
+
+    def get_screenshot(self, url, incrementor):
         driver = webdriver.Chrome(executable_path='chromedriver.exe')
-        url = "https://www.google.com/"
         driver.get(url)
-        driver.save_screenshot('ss.png')
+        driver.save_screenshot('F:/Video_Resources/images/' + str(incrementor) + '.png')
 
 
 if __name__ == "__main__":
     c = RedditAPIRequest
-    c.get_screenshot(c)
+    c.clean_response(c, 'out.xlsx')
