@@ -17,6 +17,8 @@ class RedditAPIRequest:
     username = ''
     password = ''
     data_frame = ''
+    op = [' OP.', 'OOP.', ' OOP.', ' OP', 'OOP', ' OOP']
+    the_op = [' the OP.', ' the OOP.']
 
     def process_response(self, response):
         response.replace('/n', '')
@@ -89,36 +91,33 @@ class RedditAPIRequest:
         p = inflect.engine()
         for line in range(len(df)):
             numbers = []
-            """if 'the OP*' in df['selftext'][line]:
-                print('gotcha')
-                df['selftext'][line] = df['selftext'][line].replace('the OP*',
-                                                                    'I am not the person this happened to.*')
-            if 'the OP.*' in df['selftext'][line]:
-                print('gotcha')
-                df['selftext'][line] = df['selftext'][line].replace('the OP.*',
-                                                                    'I am not the person this happened to.*')
-            if 'NOT OP' in df['selftext'][line]:
-                print('gotcha')
-                df['selftext'][line] = df['selftext'][line].replace('NOT OP',
-                                                                    'I am not the person this happened to.*')
-            if 'OP.*' in df['selftext'][line]:
-                print('got it')
-                df['selftext'][line] = df['selftext'][line].replace('OP*',
-                                                                    'I am not the person this happened to.')
-                                                                    """
+
             if '*' in df['selftext'][line]:
                 df['selftext'][line] = df['selftext'][line].replace('*', '')
 
             if '#' in df['selftext'][line]:
                 df['selftext'][line] = df['selftext'][line].replace('#', '')
 
-            numbers.append([int(s) for s in df['selftext'][line].split() if s.isdigit()])
+            if '$' in df['selftext'][line]:
+                df['selftext'][line] = df['selftext'][line].replace('$', '')
+
+            if '+' in df['selftext'][line]:
+                df['selftext'][line] = df['selftext'][line].replace('+', '')
+
+            numbers = [int(s) for s in df['selftext'][line].split() if s.isdigit()]
             if numbers is not None:
                 for n in numbers:
-                    for num in n:
-                        if str(num) in df['selftext'][line]:
-                            print('gotcha, replaced')
-                            df['selftext'][line] = df['selftext'][line].replace(str(num), str(p.number_to_words(int(num))))
+                    if str(n) in df['selftext'][line]:
+                        print('gotcha, replaced')
+                        df['selftext'][line] = df['selftext'][line].replace(str(n), str(p.number_to_words(int(n))))
+
+            for o in self.the_op:
+                if o in df['selftext'][line]:
+                    df['selftext'][line] = df['selftext'][line].replace(o, ' the person this happened to')
+
+            for o in self.op:
+                if o in df['selftext'][line]:
+                    df['selftext'][line] = df['selftext'][line].replace(o, ' the person this happened to')
 
 
         print(df['selftext'])
